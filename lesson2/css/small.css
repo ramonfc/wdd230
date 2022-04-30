@@ -1,7 +1,5 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Source+Sans+Pro:ital@1&display=swap"); */
 
-*:before,
-*:after {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -13,44 +11,54 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-header,
-main,
-footer {
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-
-header {
+header { 
   margin: 1rem auto;
   border: 1px solid #bbb;
   padding: 0.5rem;
   background-color: #413f3f;
   box-shadow: 0 0 20px #777;
-  border-radius: 0.5rem;
-
-  display: grid;
-  grid-template-columns: 200px 1fr;
-  align-items: center;
-  grid-gap: 2rem;
+  border-radius: 0.5rem; 
 }
 
-header h1 {
+h1, h2, h3 {
   font-family: 'Roboto Slab', serif;
-  justify-self: center;
   color: #ffffff;
-  /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
 }
 
-header img {
-  width: 100%;
-  height: auto;
+h1, h2 {  
+  text-align: center;  
+}
+
+h3 {
+  background-color: #413f3f;
+}
+
+main {
+  margin: 1rem auto;
+  max-width: 64em;
+  display: block;
 }
 
 
-main ul li {
-  padding: 0.2rem;
+section {  
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 0.5rem;
+  background-color: white;
+  border: 1px solid black ;
+  border-radius: 5px; 
+  display: grid;
 }
+
+
+section picture, p, span, a, h3{
+  padding: 0.4rem;  
+}
+
+img {
+  width: 100%; 
+}
+
 
 footer {
   margin: 1rem auto;
@@ -69,5 +77,3 @@ footer p:first-of-type {
 footer p:last-of-type {
   color: yellow;
 }
-
-
