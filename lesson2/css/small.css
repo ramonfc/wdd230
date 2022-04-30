@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -9,24 +8,31 @@
 body {
   font-size: 16px;
   font-family: "Lato", sans-serif;
+
+  width: 98%;
+  margin: 0 auto;
+
 }
 
-header { 
+header {
   margin: 1rem auto;
   border: 1px solid #bbb;
   padding: 0.5rem;
   background-color: #413f3f;
   box-shadow: 0 0 20px #777;
-  border-radius: 0.5rem; 
+  border-radius: 0.5rem;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: 'Roboto Slab', serif;
   color: #ffffff;
 }
 
-h1, h2 {  
-  text-align: center;  
+h1,
+h2 {
+  text-align: center;
 }
 
 h1 {
@@ -44,23 +50,27 @@ main {
 }
 
 
-section {  
+section {
   width: 90%;
   margin: 0 auto;
   margin-bottom: 0.5rem;
   background-color: white;
-  border: 1px solid black ;
-  border-radius: 5px; 
+  border: 1px solid black;
+  border-radius: 5px;
   display: grid;
 }
 
 
-section picture, p, span, a, h3{
-  padding: 0.4rem;  
+section picture,
+p,
+span,
+a,
+h3 {
+  padding: 0.4rem;
 }
 
 img {
-  width: 100%; 
+  width: 100%;
 }
 
 
@@ -75,7 +85,7 @@ footer {
 }
 
 footer p:first-of-type {
-  color: white;  
+  color: white;
 }
 
 footer p:last-of-type {
