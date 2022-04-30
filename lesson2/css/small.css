@@ -29,6 +29,10 @@ h1, h2 {
   text-align: center;  
 }
 
+h1 {
+  margin: 2rem;
+}
+
 h3 {
   background-color: #413f3f;
 }
