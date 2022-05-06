@@ -8,7 +8,7 @@ modified.innerHTML  = document.lastModified
 
 
 // To use with accordion in target page:
-let acc = document.getElementsByClassName("accordion");
+let acc = document.querySelectorAll(".accordion");
 for (let i = 0; i < acc.length; i++) {    
   acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
