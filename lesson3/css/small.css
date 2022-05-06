@@ -32,7 +32,7 @@ footer {
 
 header,
 nav,
-.home-main,
+.home-main, .target-main,
 footer {
     max-width: 700px;
     margin: 0 auto;
@@ -88,7 +88,7 @@ nav a:hover {
     color: yellow;
 }
 
-.home-main {
+.home-main, .target-main {
     /* display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -99,9 +99,9 @@ nav a:hover {
     display: block;
 }
 
-.home-section {
+.home-section, .target-section {
     width: 90%;
-    margin: 0 auto;
+    margin: 1rem auto;
     margin-bottom: 0.5rem;
     background-color: white;
     border: 1px solid black;
@@ -121,11 +121,33 @@ img {
   width: 100%;
 }
 
-/* .home-main picture {
-    display: none;
-    margin: 1rem;
-} */
+/* To use with accordions: */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
 
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+
+/* Footer: */
 
 footer {
     display: flex;
