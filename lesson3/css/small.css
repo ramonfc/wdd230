@@ -44,6 +44,10 @@ h3 {
   color: #ffffff;
 }
 
+.home-section h1 {
+  color: black;
+}
+
 h1 {
   text-align: center;
 }
@@ -88,7 +92,7 @@ nav a:hover {
     color: yellow;
 }
 
-.home-main, .target-main {
+.home-main, .target-main, .home-color-scheme {
     /* display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -117,8 +121,74 @@ h3 {
   padding: 0.4rem;
 }
 
+.home-section picture {
+  display: grid;
+  margin: auto;
+}
+
 img {
-  width: 100px;
+  max-width: 100%;
+  width: 200px;
+  /* margin: 24pt; */
+}
+
+ul, h2{
+  margin-left: 5rem;
+  padding: 1rem;
+}
+
+li {
+  padding: 0.3rem;
+}
+
+
+
+.home-color-scheme h2{
+  text-align: center;
+}
+.home-color-scheme h2{
+  margin-left: 0;
+}
+
+.colors {
+  display: block;  
+}
+.colors p:nth-of-type(1) {
+	background-color:#1C211D;
+	color: white;
+	border-radius: 1rem;
+  padding: 0.3rem;
+  margin: 1rem auto;
+}
+.colors p:nth-of-type(2) {
+	background-color: #36454f;
+	color: white;
+	border-radius: 1rem;
+  padding: 0.3rem;
+  margin: 1rem auto;
+}
+.colors p:nth-of-type(3) {
+	background-color: #FFFFFF;
+	color: black;
+	border-radius: 1rem;
+  padding: 0.3rem;
+  margin: 1rem auto;
+}
+.colors p:nth-of-type(4) {
+	background-color: #000000;
+	color: white;
+	border-radius: 1rem;
+  padding: 0.3rem;
+  margin: 1rem auto;
+}
+
+
+.home-typography h2, p {
+  text-align: center;
+}
+
+.home-typography h2 {
+  margin-left: 0;
 }
 
 /* To use with accordions: */
