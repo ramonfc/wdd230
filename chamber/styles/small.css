@@ -9,9 +9,11 @@ body {
     font-family: "Lato", sans-serif;
 }
 
-header, main, footer {
-	max-width: 960px;
-	margin: 0 auto;
+header,
+main,
+footer {
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 header {
@@ -19,13 +21,13 @@ header {
     grid-template-columns: 1fr 2fr 1fr 1fr;
     grid-gap: 0.3rem;
     align-items: center;
-	justify-content: center;
+    justify-content: center;
     text-align: center;
     background-color: #413f3f;
 }
 
 
-img {
+header img {
     max-width: 100px;
     margin: 0.2rem 0 0.1rem 0.2rem;
     border-radius: 5px;
@@ -40,14 +42,15 @@ img {
 }
 
 .titles h1 {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .titles h2 {
     font-size: 11px;
 }
+
 .social {
-    display: flex;    
+    display: flex;
 }
 
 .social img {
@@ -66,9 +69,9 @@ button {
 nav {
     grid-column: 1/-1;
     margin: 15px 0;
-    color:white;
-    background-color: rgba(54,69,79, 0.2);
-    
+    color: white;
+    background-color: rgba(54, 69, 79, 0.2);
+
 }
 
 .date {
@@ -78,6 +81,7 @@ nav {
     padding: 0.4rem;
     margin: 0 0.5rem;
 }
+
 nav ul {
     display: none;
     list-style: none;
@@ -113,4 +117,47 @@ nav ul.open {
 
 #hamburgerBtn.open span:nth-child(2) {
     display: block;
+}
+
+
+footer {
+    display: block;
+    margin: 1rem auto;
+    border: 1px solid #bbb;
+    padding: 0.1rem;
+    background-color: #413f3f;
+    text-align: center;
+    color: #ffffff;
+}
+
+footer img {
+    max-width: 150px;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+}
+
+.footer1-a  {
+    /* margin-bottom: 1rem; */
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 90%;
+}
+
+.footer1-b  {
+    margin-bottom: 1rem;
+}
+
+.footer1-b p {
+    padding: 0.4rem;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.footer2 {
+    border-top: 1px solid #FFFFFF;
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 90%;
 }
