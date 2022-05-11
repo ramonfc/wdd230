@@ -169,13 +169,13 @@ footer {
 
 footer img {
     max-width: 150px;
-    margin: 0.5rem 0;
+    margin: 0.5rem 0 0 0;
     border-radius: 5px;
 }
 
 .footer1-a  {
     /* margin-bottom: 1rem; */
-    margin: 1rem auto;
+    margin: 1rem auto 0 auto;
     padding: 1rem;
     width: 90%;
 }

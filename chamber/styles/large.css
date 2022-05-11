@@ -1,6 +1,23 @@
 /* 64rem is also 1028px when basefont is 16px */
 @media only screen and (min-width: 64rem){
     
+    /* de medium */
+    /* 
+    nav button {
+        display: none;
+    }
+
+    nav ul#primaryNav {
+        display: flex;
+        margin-left: 2vw;
+        border-left: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+    }
+    */
 
     nav ul li a {
         padding: 0.5rem 1rem;
