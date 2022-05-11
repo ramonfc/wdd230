@@ -16,6 +16,8 @@ footer {
     margin: 0 auto;
 }
 
+/* HEADER */
+
 header {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr 1fr;
@@ -119,6 +121,41 @@ nav ul.open {
     display: block;
 }
 
+
+/* MAIN */
+main p{
+    height: 200px;
+    background-color: #bbb;
+    margin: 1rem 0;
+    border: 1px solid #969393;
+    padding: 1rem;
+}
+
+.spotlight {
+    background-color: #bbb;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #969393;
+}
+
+.spotlight p {
+    margin: 0.5rem;
+    border: 1px solid #969393;
+}
+
+.spotlight p:nth-child(1) {
+    margin-bottom: 0;
+    border: 1px solid #969393;
+}
+
+.spotlight p:nth-child(2) {
+    margin-top: 0;
+    border: 1px solid #969393;
+}
+
+
+
+/* FOOTER */
 
 footer {
     display: block;
