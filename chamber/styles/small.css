@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid-gap: 0.1rem;
+    align-items: center;
+	justify-content: center;
+    text-align: center;
+
+}
+
+
+img {
+    max-width: 100px;
+    margin: 0.1rem;
+    border-radius: 5px;
+}
+
+.titles {
+    font-family: 'Roboto Slab', serif;
+    justify-self: start;
+}
+
+.titles h1 {
+    font-size: 14px;
+}
+
+.titles h2 {
+    font-size: 11px;
+}
+.social {
+    display: flex;
+}
+
+.social img {
+    width: 30px;
+}
+
+button {
+    margin: 0.2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #555;
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(1) {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(2) {
+    display: none;
+}
+
+
+#hamburgerBtn.open span:nth-child(1) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+    display: block;
+}
