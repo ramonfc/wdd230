@@ -191,6 +191,11 @@ footer img {
     width: 90%;
 }
 
+.footer1-b a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 .footer1-b  {
     margin-bottom: 1rem;
 }
