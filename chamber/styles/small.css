@@ -13,7 +13,7 @@ header,
 main,
 footer {
     max-width: 960px;
-    margin: 0 auto;
+    margin: auto 1rem;
 }
 
 /* HEADER */
@@ -31,7 +31,7 @@ header {
 
 header img {
     max-width: 100px;
-    margin: 0.2rem 0 0.1rem 0.2rem;
+    margin: 0.7rem 0 0.1rem 0.7rem;
     border-radius: 5px;
 }
 
@@ -131,6 +131,10 @@ main p{
     padding: 1rem;
 }
 
+main p:nth-child(5) {
+    display: none;
+}
+
 .spotlight {
     background-color: #bbb;
     display: flex;
@@ -145,12 +149,14 @@ main p{
 
 .spotlight p:nth-child(1) {
     margin-bottom: 0;
-    border: 1px solid #969393;
 }
 
 .spotlight p:nth-child(2) {
     margin-top: 0;
-    border: 1px solid #969393;
+}
+
+.spotlight p:nth-child(3) {
+    display: none;
 }
 
 
@@ -159,7 +165,8 @@ main p{
 
 footer {
     display: block;
-    margin: 1rem auto;
+    /* margin: 1rem auto; */
+    margin-top: 1rem;
     border: 1px solid #bbb;
     padding: 0.1rem;
     background-color: #413f3f;
