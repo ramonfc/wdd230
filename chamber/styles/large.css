@@ -48,11 +48,11 @@
     }
 
     #primaryNav {
-        position: relative;
-        /* left: 30rem; */
-        bottom: 7rem; 
-        left: 35vw;
-        /* bottom: 9vw; */
+
+
+        position: absolute;
+        top: 4vh;
+        right: 17vw;
     }
 
     /* main */
