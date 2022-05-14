@@ -4,7 +4,11 @@
     header,
     main,
     footer {
-        max-width: 1300px;
+        max-width: 1300px;        
+    }
+
+    header, footer {
+        margin: 0 auto;
     }
 
     /* header*/
@@ -69,7 +73,7 @@
     }
 
     main {
-
+        margin: 1rem auto;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
