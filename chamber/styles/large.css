@@ -9,6 +9,10 @@
 
     /* header*/
 
+    header {
+        grid-template-columns: 1fr 1fr 2fr 1fr;
+    }
+
     .titles {
         /* margin-left: -6rem; */
         margin-left: -8vw;
@@ -48,12 +52,14 @@
         justify-self: center;
     }
 
-    #primaryNav {
+    .date {
+        margin-bottom: 1rem;
+    }
 
-
-        position: absolute;
-        top: 4vh;
-        right: 17vw;
+    nav {
+        display: flex;
+        grid-row: 1;
+        grid-column: 3 / 4;
     }
 
     /* main */
