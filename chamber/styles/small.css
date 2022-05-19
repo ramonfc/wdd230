@@ -120,6 +120,12 @@ nav ul {
     margin: 0;
 }
 
+nav a:hover {
+    background-color: #bbb;
+	color: #36454f;
+    font-weight: bold;
+}
+
 nav ul li a {
     display: block;
     padding: 0.8rem 2vw;
