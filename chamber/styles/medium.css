@@ -1,7 +1,14 @@
 /* 35rem is also 560px when basefont is 16px */
 @media only screen and (min-width: 45rem){
 
-    /* Header */
+
+    /* banner */
+    #banner {
+        font-size: 1rem;
+        padding: 0.4rem 1rem 0.4rem 6vw;
+    }
+
+      /* Header */
 
 
     .titles h1 {

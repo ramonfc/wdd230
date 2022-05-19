@@ -21,3 +21,20 @@ year.innerHTML  = date.getFullYear();
 
 const modified = document.querySelector("#modified");
 modified.innerHTML  = document.lastModified;
+
+
+
+// Banner
+let day = date.getDay();
+
+const closeBtn = document.querySelector("#close");
+const banner = document.querySelector("#banner");
+
+if (day === 1 || day === 2) {
+	banner.style.display = "flex";
+    banner.style.justifyContent = "space-evenly";
+}
+
+closeBtn.addEventListener("click", () => {
+	banner.style.display = "none";
+});

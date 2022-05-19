@@ -11,6 +11,7 @@
         margin: 0 auto;
     }
 
+   
     /* header*/
 
     header {
@@ -32,7 +33,7 @@
     }
 
 
-    button {
+    header button {
         display: none;
     }
 
