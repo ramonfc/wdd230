@@ -158,15 +158,106 @@ nav ul.open {
 
 
 /* MAIN */
-main p{
-    height: 200px;
+main div {
+    /* height: 200px; */
     background-color: #bbb;
     margin: 1rem 0;
     border: 1px solid #969393;
     padding: 1rem;
 }
 
-main p:nth-child(5) {
+main h2, h3 {
+ text-align: center;
+}
+ /* hero */
+main .hero{
+    padding: 0;
+    position: relative;
+}
+
+main .hero h2{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #050505;
+    text-shadow: 2px 2px #A1B0AB;   
+}
+
+main .hero picture img{
+    width: 100%;
+    margin: 0px;
+    /* height: 100%; */
+    /* overflow: hidden; */
+}
+
+main .hero button{
+    position: absolute;
+    bottom: 10px;
+	right: 30px;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px ;
+    background-color: #fbff00;
+    font-weight: bold;
+}
+
+/* event */
+main .event {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* weather */
+
+.weather {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+main .weather-2 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+main .weather img {
+    width: 100%;
+    float: left;
+}
+
+.weather > p {
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.weather-1 {
+    border: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    margin-top: -1rem;
+    margin-bottom: -0.3rem;
+}
+
+.weather-1 p {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.weather-2 {
+    border: none;
+    margin-top: 0rem;
+}
+
+.weather-2 span {
+   float: right;
+}
+
+main .join {
     display: none;
 }
 
@@ -177,20 +268,20 @@ main p:nth-child(5) {
     border: 1px solid #969393;
 }
 
-.spotlight p {
+.spotlight div {
     margin: 0.5rem;
     border: 1px solid #969393;
 }
 
-.spotlight p:nth-child(1) {
+.spotlight-1 {
     margin-bottom: 0;
 }
 
-.spotlight p:nth-child(2) {
-    margin-top: 0;
+.spotlight-2  {
+    margin-top: 0; 
 }
 
-.spotlight p:nth-child(3) {
+.spotlight-3  {
     display: none;
 }
 

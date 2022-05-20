@@ -31,11 +31,11 @@
 
 
     /* main */
-    main p {
+    main div {
         margin: 0;
     }
 
-    main p:nth-child(5) {
+    main .join {
         display: block;
     }
     
@@ -47,12 +47,12 @@
     }
 
     
-    main p:nth-child(1) {
+    main .hero {
         grid-row: 1;
         grid-column: 1 / -1;
     }
 
-    main p:nth-child(4) {
+    main .news {
         grid-row: 2;
         grid-column: 1 / -1;
     }
@@ -65,33 +65,33 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    .spotlight p {
+    .spotlight div {
         margin: 0.5rem;
     }
 
-    .spotlight p:nth-child(1) {
+    .spotlight-1 {
         grid-row: 1;
         grid-column: 1 / 2;
         margin-bottom: 0.5rem;
     }
-    .spotlight p:nth-child(2) {
+    .spotlight-2 {
         grid-row: 1;
         grid-column: 2 / 3;
         margin-top: 0.5rem;
     }
 
 
-    main p:nth-child(5) {
+    main .join {
         grid-row: 4;
         grid-column: 1 / -1;
     }
 
-    main p:nth-child(2) {
+    main .event {
         grid-row: 5;
         grid-column: 1 / 2;
     }
 
-    main p:nth-child(3) {
+    main .weather {
         grid-row: 5;
         grid-column: 2 / -1;
     }
