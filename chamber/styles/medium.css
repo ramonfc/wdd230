@@ -83,11 +83,7 @@
         /* margin-top: 0.5rem; */
     }
 
-    .spotlight div:nth-child(2) img {
-        width: 59%;
-    }
-
-
+       
     /* join */
     main .join {
         grid-row: 4;
