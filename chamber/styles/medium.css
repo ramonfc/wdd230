@@ -1,5 +1,5 @@
 /* 35rem is also 560px when basefont is 16px */
-@media only screen and (min-width: 45rem){
+@media only screen and (min-width: 45rem) {
 
 
     /* banner */
@@ -8,14 +8,14 @@
         padding: 0.4rem 1rem 0.4rem 6vw;
     }
 
-      /* Header */
+    /* Header */
 
 
     .titles h1 {
         font-size: 20px;
-        
+
     }
-    
+
     .titles h2 {
         font-size: 14px;
     }
@@ -27,7 +27,7 @@
 
     }
 
-    
+
 
 
     /* main */
@@ -35,10 +35,6 @@
         margin: 0;
     }
 
-    main .join {
-        display: block;
-    }
-    
     main {
         margin-top: 1rem;
         display: grid;
@@ -46,54 +42,89 @@
         grid-gap: 1rem;
     }
 
-    
+    /* hero */
+
     main .hero {
         grid-row: 1;
         grid-column: 1 / -1;
     }
 
+    main .hero button {
+        padding: 1rem;
+    }
+       /* news */
     main .news {
         grid-row: 2;
         grid-column: 1 / -1;
-    }
+    }  
 
+    /* spotlight */
     .spotlight {
         grid-row: 3;
-        grid-column: 1 / -1; 
+        grid-column: 1 / -1;
         /* flex-direction: row; */
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
-    .spotlight div {
+    /* .spotlight div {
         margin: 0.5rem;
-    }
+    } */
 
     .spotlight-1 {
         grid-row: 1;
         grid-column: 1 / 2;
-        margin-bottom: 0.5rem;
+        /* margin-bottom: 0.5rem; */
     }
+
     .spotlight-2 {
         grid-row: 1;
         grid-column: 2 / 3;
-        margin-top: 0.5rem;
+        /* margin-top: 0.5rem; */
+    }
+
+    .spotlight div:nth-child(2) img {
+        width: 59%;
     }
 
 
+    /* join */
     main .join {
         grid-row: 4;
         grid-column: 1 / -1;
+        display: block;
+        grid-row: 4/5;
+        text-align: center;
     }
 
+    main .join button {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        padding: 1rem;
+        width: 100%;
+        background-color: #fbff00;
+        border: 0.5px solid gray;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    /* event */
     main .event {
         grid-row: 5;
         grid-column: 1 / 2;
+        justify-content: space-around;
     }
 
+    /* weather */
     main .weather {
         grid-row: 5;
         grid-column: 2 / -1;
+        max-width: 100%;
+    }
+
+
+    main .news, .join {
+        padding-bottom: 2rem;
     }
 
     /* footer */
@@ -109,16 +140,18 @@
     }
 
     .footer1-a {
-        margin-left: -7rem;
+        margin-left: -7vw;
     }
 
-    .footer1-a h3, .footer1-a p{
+    .footer1-a h3,
+    .footer1-a p {
         text-align: left;
     }
 
     .footer1-b {
         margin: auto;
     }
+
     .footer1-b p {
         padding: 0;
     }
