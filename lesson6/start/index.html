@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Fill Me In">
+    <meta name="author" content="John Doe">
+
+    <!-- This start file was build by Paul Cheney  -->
+    <title>HTML5 Start Site by Paul Cheney</title>
+
+    <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+    <!-- STYLE SHEETS -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="css/small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="css/medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="css/large.css" rel="stylesheet">
+
+
+
+</head>
+<body>
+    <!-- HEADER HERE -->
+    <header class="clearfix">
+        <figure class="logo">
+            <img src="images/logo0.png" alt="logo" 
+            srcset="images/logo1.png 1x, images/logo2.png 2x, images/logo3.png 3x"> 
+        </figure>
+        <h1>Company Name Here</h1>
+        <h2>Possible Slogan or Tagline</h2>
+    </header>
+
+
+    <!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">Products</a></li>
+            <li><a href="#">Location</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- CONTENT HERE -->
+    <main class="clearfix">
+        <h1>Products</h1>
+        <!-- <figure class="myPhoto">
+            <img src="images/golgotha.jpg" alt="golgotha" sizes="50vw"
+            srcset="images/golgotha200.jpg 200,
+            images/golgotha500.jpg 500w,
+            images/golgotha800.jpg 800w,
+            images/golgotha1100.jpg 1100w">
+            <figcaption>The Garden Tomb</figcaption>
+        </figure> -->
+
+        <picture class="myPhoto">
+            <!-- images are half of max-width because it was stablished that images were 50% -->
+            <source media="(max-width: 400px)" srcset="images/golgotha200.jpg"> 
+            <source media="(max-width: 1000px)" srcset="images/golgotha500.jpg">
+            <source media="(max-width: 1600px)" srcset="images/golgotha800.jpg">
+            <img src="images/golgotha.jpg" alt="golgotha">
+            <div>Golgotha</div>
+        </picture>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic a voluptate beatae tempore tempora facilis iure
+            doloremque maiores, dolore labore assumenda necessitatibus esse? Labore, ex sed? Odio debitis temporibus
+            quia!
+            At rerum nisi deserunt veritatis! Accusamus est porro, deleniti illum totam distinctio rem ducimus, tempore
+            fuga aspernatur beatae eius animi ipsam atque consectetur labore facere? Ipsum laboriosam consectetur iure
+            dignissimos!
+            Asperiores facere ad sunt ex incidunt quae sed, dolorum explicabo quo, odit quod excepturi tenetur et velit
+            iure perferendis nobis animi similique. Aspernatur beatae officia placeat natus accusamus nostrum omnis?
+            Fugiat error reiciendis maxime ab accusamus facere debitis earum nisi quas eius sapiente odit cupiditate
+            voluptas, rem, commodi modi deleniti optio nam sint quaerat animi similique quibusdam ut magni! Voluptates!
+        </p>
+    </main>
+
+    <!-- FOOTER HERE -->
+    <footer>
+        &copy; 201x &bull; Paul Cheney &bull; 123-555-6789
+    </footer>
+
+</body>
+</html>
