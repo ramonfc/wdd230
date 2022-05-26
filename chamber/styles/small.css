@@ -260,9 +260,21 @@ main .weather img {
     margin-top: 0rem;
 }
 
-.weather-2 span {
+/* .weather-2 span {
    float: right;
+} */
+
+.weather-2  p {
+    display: flex;
+    justify-content: space-between;
 }
+
+.wind-speed {
+    margin-right: -6vw;
+}
+
+
+/* join */
 
 main .join {
     display: none;
