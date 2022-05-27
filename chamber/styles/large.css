@@ -109,6 +109,9 @@
         grid-column: 1;        
     }
 
+    .wind-speed {
+        margin-right: -6vw;
+    }
     /* main .weather-1 {
         margin-top: 1rem;
         margin-bottom: 1.7rem;
