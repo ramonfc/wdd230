@@ -31,6 +31,7 @@
 
 
     /* main */
+    /* HOME */
     main div {
         margin: 0;
     }
@@ -126,7 +127,47 @@
         padding-bottom: 2rem;
     }
 
-    /* footer */
+
+/* MAIN */
+/* DISCOVER */
+
+.discover {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.7rem;
+}
+.discover div picture {
+    display: flex;
+    margin: 3vh;
+}
+.gallery div picture img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.discover-heading {
+    grid-row: 1;
+    grid-column: 1 / -1;
+}
+
+.discover-heading p {
+    text-align: center;
+}
+
+.gallery, .data {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+}
+
+.data div p {
+    margin-top: 3vh;
+}
+
+.discover section:nth-of-type(1) img:hover{
+    box-shadow: 0 0 50px #555;
+}
+    /* FOOTER */
 
     .footer1 {
         display: grid;

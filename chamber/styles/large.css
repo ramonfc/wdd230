@@ -145,7 +145,20 @@
     .spotlight div img {
         width: 20%;
     }
-    /* footer */
+
+
+/* MAIN */
+/* DISCOVER */
+.gallery div p {
+    margin-top: 6vh;
+}
+
+.gallery div picture img {
+    width: 70%;
+}
+
+
+    /* FOOTER */
 
     .footer1-a {
         margin-left: 0.5rem;
