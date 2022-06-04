@@ -158,6 +158,7 @@ nav ul.open {
 
 
 /* MAIN */
+/* HOME */
 main div {
     /* height: 200px; */
     background-color: #bbb;
@@ -324,6 +325,33 @@ main .join {
 .spotlight div p {
     margin: 0.5rem;
 }
+
+
+
+
+/* MAIN */
+/* DISCOVER */
+.discover-heading h2 {
+    margin-bottom: 1rem;
+}
+
+.gallery div picture img, .data div picture img {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.discover hr {
+    margin-bottom: 1rem;
+}
+
+.territory p {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 6px;
+    margin-bottom: 16px;
+  }
+  
+
 
 
 
