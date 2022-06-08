@@ -40,8 +40,8 @@ tfoot th {
   font-weight: lighter; 
 }
 
-table, caption {
-  box-shadow:  0.3em 0.3em 1em var(--shadow)
+table {
+  box-shadow:  0.4em 0.4em 1em var(--shadow)
 }
 
 
