@@ -26,6 +26,7 @@
     <link href="styles/large.css" rel="stylesheet">
 
     <script src="scripts/scripts.js" defer></script>
+    <script src="scripts/joinPage.js" defer></script>
 
 </head>
 <body>
@@ -81,8 +82,8 @@
             <fieldset>
                 <legend>Your Business Information</legend>
                 <label class="top">Business Name: <input type="text" name="businessName" required></label>
-                <label class="top">Business Position: <input type="text" name="position" pattern="[a-zA-Z0-9- ]{1,7}"
-                        id="businessPosition"></label>
+                <label class="top">Business Position: 
+                    <input type="text" name="position" pattern="[a-zA-Z0-9- ]{7,}" id="businessPosition"></label>
                 <label class="top">Business Description: <textarea placeholder="Tell us about your business"
                         name="description"></textarea></label>
             </fieldset>

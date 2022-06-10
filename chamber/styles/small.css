@@ -434,6 +434,7 @@ form input.submitBtn {
   max-width: var(--form-max-width-inputs);
   margin: 0 auto;
   display: block;
+  font-weight: bold;
 }
 
 form label.top input:required {
@@ -442,6 +443,10 @@ form label.top input:required {
 
 form label.top input:required:valid {
   border-left: 6px solid green;
+}
+
+form #businessPosition:invalid {
+  border: 6px solid red;
 }
 
 form label.top textarea {

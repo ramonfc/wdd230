@@ -178,6 +178,7 @@
 main#join-page {
     display: grid;
     grid-template-columns: 1fr;
+    justify-content: center;
 }
 
 main#join-page h2 {
