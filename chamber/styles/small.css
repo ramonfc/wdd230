@@ -462,8 +462,29 @@ form label.top textarea {
 }
 
 
+/* MAIN */
+/* THANK YOU */
 
+main#thankyou {
+  display: block;
+  text-align: center;
+  padding: 10vh;
+  margin: 10vh 0;
+}
 
+main#thankyou h2 {
+  margin-bottom: 2em;
+}
+
+main#thankyou p {
+  margin-bottom: 1em;
+}
+
+main#thankyou h2 + p {
+  font-weight: bolder;
+  font-size: 2em;
+  font-style: italic;
+}
 
 
 /* FOOTER */
