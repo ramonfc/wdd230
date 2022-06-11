@@ -365,6 +365,11 @@ main#join-page h2 {
   margin: 1rem auto;
 }
 
+main#join-page p {
+  text-align: justify;
+  padding: 0 1em;
+}
+
 /* JOIN 
     FORM */
 
