@@ -41,7 +41,7 @@ tfoot th {
 }
 
 table {
-  box-shadow:  0.4em 0.4em 1em var(--shadow)
+  box-shadow:  0.4em 0.4em 1em var(--remark)
 }
 
 
