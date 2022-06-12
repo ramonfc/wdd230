@@ -19,7 +19,9 @@
 
   .titles {
     /* margin-left: -6rem; */
-    margin-left: -8vw;
+    /* margin-left: -8vw; */
+    /* margin-left: -35%; */
+    margin-left: calc(2.4em - 50%);
   }
 
   .titles h1 {
