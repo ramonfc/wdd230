@@ -4,6 +4,7 @@
   --form-color-label-text: #000000;
   --form-color-background-btn: #413f3f;
   --form-max-width-inputs: 26em;
+  --nav-ul-li-a-selected-color: yellow;
 }
 
 * {
@@ -135,6 +136,12 @@ nav ul li a {
   color: #ffffff;
   border-top: 1px solid rgba(0, 0, 0, 0.5);
 }
+
+nav ul li.active a {
+  color: var(--nav-ul-li-a-selected-color);
+}
+
+
 
 nav ul.open {
   display: block;
