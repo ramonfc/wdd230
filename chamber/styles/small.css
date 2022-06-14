@@ -478,7 +478,7 @@ form label.top textarea {
 /* THANK YOU */
 
 main#thankyou {
-  margin: 10vh 1rem;
+  margin: 10vh auto;
   display: flex;
   flex-direction: column;
   align-items: center;
