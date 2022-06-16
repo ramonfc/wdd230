@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Manizales Entrepreneur Chamber of Commerce | Home</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Ramón Castaño">
+    <meta name="description"
+        content="Assignment in WDD 230: Web Frontend Development I at Brigham Young University - Idaho">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- selected fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab&display=swap" rel="stylesheet">
+
+
+
+    <!-- STYLE SHEETS -->
+    <link href="styles/normalize.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="styles/small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="styles/medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="styles/large.css" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <script src="scripts/scripts.js" defer></script>
+    <script src="scripts/directoryPage.js" defer></script>
+  
+</head>
+<body>
+    <!-- Banner -->
+    <div id="banner">
+        <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p><button id="close">x</button>
+    </div>
+    <!-- HEADER HERE -->
+    <header>
+
+        <img src="images/logo3.webp" alt="logo manizales Chamber">
+
+
+        <div class="titles">
+            <h1>Manizales Entrepreneur</h1>
+            <h2>Chamber of Commerce</h2>
+        </div>
+
+        <div class="social">
+            <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="logo facebook"></a>
+            <a href="https://www.linkedin.com/"><img src="images/linkedin.png" alt="logo linkedin"></a>
+        </div>
+        <!-- NAVIGATION HERE -->
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <span class="date"></span>
+        <nav>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li class="active"><a href="#">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CONTENT HERE -->
+    <main id="directory-page">
+
+        <div class="menu-directory">
+            <button id="grid"><span class="material-symbols-outlined">
+                apps
+                </span></button>
+            <button id="list"><span class="material-symbols-outlined">
+                format_list_bulleted
+                </span></button>
+        </div>
+        <!-- <hr> -->
+        <article class="grid-directory">
+            <!-- <section>
+                <img src="https://assets.ldscdn.org/c8/b5/c8b5e860a7edbbef90734c83be366e8d359d2c0b/payson_utah_temple.jpg" alt="Payson Utah Temple" />
+                <h3>Payson Utah</h3>
+                <p>2015</p>
+                <a href="https://www.churchofjesuschrist.org/temples/details/payson-utah-temple?lang=eng" target="_blank">Details</a>
+            </section>
+    
+            <section>
+                <img src="https://assets.ldscdn.org/c6/07/c6077e1778bfdf5a91569ab3acf57e9c31a7175f/boise_idaho_temple_sunshine.jpeg" alt="Boise Idaho Temple" />
+                <h3>Boise Idaho</h3>
+                <p>1984</p>
+                <a href="https://www.churchofjesuschrist.org/temples/details/boise-idaho-temple?lang=eng" target="_blank">Details
+                </a>
+            </section>
+    
+            <section>
+                <img src="https://assets.ldscdn.org/50/07/5007990b50105c9234b5608dbe7137e09ab201c9/spokane_washington_temple_lds.jpeg" alt="Spokane Washington Temple" />
+                <h3>Spokane Washington</h3>
+                <p>1999</p>
+                <a href="https://www.churchofjesuschrist.org/temples/details/spokane-washington-temple?lang=eng" target="_blank">Details</a>
+            </section>
+    
+            <section>
+                <img src="https://assets.ldscdn.org/83/16/831688ef82fcab202e941ed8fd5869b28f9b5db11086883/oakland_california_temple_exterior.jpeg" alt="Oakland California Temple" />
+                <h3>Oakland California</h3>
+                <p>1964</p>
+                <a href="https://www.churchofjesuschrist.org/temples/details/oakland-california-temple?lang=eng" target="_blank">Details </a>
+            </section>
+    
+            <section>
+                <img src="https://assets.ldscdn.org/72/14/7214efb047426ffe6b581906fa0092a624ebc637/seattle_washington_temple_exterior.jpg" alt="Seattle Washington Temple" />
+                <h3>Seattle Washington</h3>
+                <p>1980</p>
+                <a href="https://www.churchofjesuschrist.org/temples/details/seattle-washington-temple?lang=eng" target="_blank">Details</a>
+            </section>
+    
+            <section>
+                <img src="https://assets.ldscdn.org/2c/77/2c77d5fd39c0646e0122b1a1472f1d538aa3aa7e/portland_oregon_temple.jpeg" alt="Portland Oregon Temple" />
+                <h3>Portland Oregon</h3>
+                <p>1989</p>
+                <a href="https://www.churchofjesuschrist.org/temples/details/portland-oregon-temple?lang=eng" target="_blank">Details</a>
+            </section>
+    
+            <section>
+                <img src="https://assets.ldscdn.org/2c/77/2c77d5fd39c0646e0122b1a1472f1d538aa3aa7e/portland_oregon_temple.jpeg" alt="Portland Oregon Temple" />
+                <h3>Portland Oregon</h3>
+                <p>1989</p>
+                <a href="https://www.churchofjesuschrist.org/temples/details/portland-oregon-temple?lang=eng" target="_blank">Details</a>
+            </section>
+    
+            <section>
+                <img src="https://assets.ldscdn.org/e5/54/e5546a3599c023ba83a4d751fb6fc196b5ab6ada/jordan_river_temple_exterior_images.jpeg" alt="Jordan River Utah" />
+                <h3>Jordan River Utah</h3>
+                <p>1981</p>
+                <a href="https://www.churchofjesuschrist.org/temples/details/jordan-river-utah-temple?lang=eng" target="_blank">Details</a>
+            </section>
+    
+            <section>
+                <img src="https://assets.ldscdn.org/77/eb/77eb82391ad1795a117b25ee3deaf2a4d229311a/provo_temple_lds.jpg" alt="Portland Oregon Temple" />
+                <h3>Provo Utah</h3>
+                <p>1972</p>
+                <a href="https://www.churchofjesuschrist.org/temples/details/provo-utah-temple?lang=eng" target="_blank">Details</a>
+            </section>
+    
+            <section>
+                <img src="https://assets.ldscdn.org/57/18/5718c8b9c5a103646c0bd22554cb268b88986f05/provo_city_center_temple_exterior.jpg" alt="Provo City Center Temple" />
+                <h3>Provo City Center</h3>
+                <p>2016</p>
+                <a href="https://www.churchofjesuschrist.org/temples/details/provo-city-center-temple?lang=eng" target="_blank">Details</a>
+            </section> -->
+        </article>
+       
+    </main>
+
+    <!-- FOOTER HERE -->
+    <footer>
+        <div class="footer1">
+            <img src="images/logo3.webp" alt="logo manizales Chamber">
+            <div class="footer1-a">
+                <h3>Manizales Entrepreneur Chamber of Commerce</h3>
+                <p>Carrera 23 # 00-00</p>
+                <p>Manizales, Caldas</p>
+            </div>
+            <div class="footer1-b">
+                <p>info@manizalesen.org</p>
+                <p>+(57) 270-2300</p>
+                <p>&#128205; <a href="https://goo.gl/maps/qPokitLDcnFeeU6P6">Location Map</a> </p>
+            </div>
+        </div>
+
+        <div class="footer2">
+            <div>
+                <p>&copy; <span id="currentYear"> </span> Manizales Entrepreneur</p>
+                <p><span class="name">Ramón Castaño</span></p>
+                <p>WDD 230 Project</p>
+            </div>
+
+            <p>Last Modification: <span id="modified"></span></p>
+        </div>
+
+    </footer>
+
+
+</body>
+</html>
