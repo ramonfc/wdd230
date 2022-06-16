@@ -5,7 +5,7 @@
             "address": "Km 25 vía Manizales Medellín",
             "phone": "(+57) 315 420 2786",
             "url": "https://casagres.com/",
-            "image": "https://casagres.com/wp-content/uploads/2020/06/logo-casa-gres.png",
+            "image": "images/logosEmpresas/casagres.png",
             "membership": "Bronze"
         },
         {
@@ -13,7 +13,7 @@
             "address": "Km 1 Vía Termales del Otoño",
             "phone": "(+57) (606) 8930130",
             "url": "https://induma.com.co/",
-            "image": "https://induma.com.co/wp-content/uploads/2021/07/LOGOINDUMA-ai-1.webp",
+            "image": "images/logosEmpresas/induma.webp",
             "membership": "Gold"
         },
         {
@@ -21,7 +21,7 @@
             "address": "Carrera 22 N° 75 - 111",
             "phone": "(+57) (606) 8864200",
             "url": "https://www.incolma.com/",
-            "image": "https://www.incolma.com/wp-content/uploads/2022/03/Recurso-29.png",
+            "image": "images/logosEmpresas/incolma.png",
             "membership": "Bronze"
         },
         {
@@ -29,7 +29,7 @@
             "address": "Cra 21 N° 72 -04",
             "phone": "(+57) (606) 8864009",
             "url": "https://www.prometalicos.com/",
-            "image": "https://www.prometalicos.com/wp-content/uploads/2018/04/logo_blanco.png",
+            "image": "images/logosEmpresas/prometalicos.png",
             "membership": "Silver"
         },
         {
@@ -37,7 +37,7 @@
             "address": "Km 10 vía al Magdalena Entrada al SENA",
             "phone": "(+57) (606) 8741838",
             "url": "https://normandy.com.co/",
-            "image": "https://normandy.com.co/wp-content/uploads/2022/05/LOGO-NORMANDY.png",
+            "image": "images/logosEmpresas/normandy.png",
             "membership": "Gold"
         },
         {
@@ -45,7 +45,7 @@
             "address": "Parque Industrial Juanchito-Terraza 6-Lote 2-Bodega 4",
             "phone": "(+57) (606) 8743874",
             "url": "http://diajorsas.com/",
-            "image": "http://diajorsas.com/wp-content/themes/diajor/media/logo-diajor.png",
+            "image": "images/logosEmpresas/diajor.png",
             "membership": "Bronze"
         },
         {
@@ -53,7 +53,7 @@
             "address": "Avenida Kevin Ángel # 59 - 181",
             "phone": "(+57) (606) 8879770",
             "url": "https://www.aguasdemanizales.com.co/",
-            "image": "https://www.aguasdemanizales.com.co/Portals/_default/Skins/AGMWebTheme/img/AGMLogo.png",
+            "image": "images/logosEmpresas/aguas.png",
             "membership": "Silver"
         },
         {
@@ -61,7 +61,7 @@
             "address": "Parque industrial El Rodeo bodega 2, Vía Sena - TCC.",
             "phone": "(+57) (606) 8932490",
             "url": "https://www.solocauchos.com/",
-            "image": "https://www.solocauchos.com/wp-content/uploads/2019/03/cropped-logo-3.png",
+            "image": "images/logosEmpresas/solocauchos.png",
             "membership": "Silver"
         },
         {
@@ -69,7 +69,7 @@
             "address": "Km 7 vía antigua a Chinchiná",
             "phone": "(+57) (606) 870 62 12",
             "url": "https://www.madeco.com.co/es/",
-            "image": "https://www.madeco.com.co/sitio/wp-content/themes/madeco/media/logo-madeco-3.png?ver=0.12",
+            "image": "images/logosEmpresas/madeco.png",
             "membership": "Bronze"
         }
     ]
