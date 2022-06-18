@@ -504,13 +504,14 @@ main#thankyou h2 + p {
 main#directory-page {
 	margin: 1rem auto;
 	/* border: 1px solid #bbb; */
-	padding: 0.5rem;
+	padding: 0.5em;
 	max-width: 960px;
 	/* background-color: #eee; */
 	font-family: "Caveat", cursive;
 
   display: grid;
   grid-template-columns: 1fr;
+  justify-content: center;
 }
 
 main#directory-page div {
@@ -520,13 +521,13 @@ main#directory-page div {
 .menu-directory {
 	margin: 1rem auto;
 	border: 1px solid rgba(0, 0, 0, 0.1);
-	padding: 0.5rem;
+	padding: 0.5em;
 	background-color: transparent;
 	text-align: center;
 }
 
 .menu-directory button {
-	/* padding: 1rem; */
+	padding: 1em;
   background-color: transparent;
   margin: 0 0.8em;
   border: transparent;
@@ -538,18 +539,18 @@ main#directory-page div {
 
 main#directory-page article,
 .grid-directory section {
-	margin: 0.75rem;
+	margin: 0.75em;
 }
 
 section {
 	border: 1px solid rgba(0, 0, 0, 0.1);
-	padding: 0.5rem;
+	padding: 1em;
 	background-color: #ccc;
 }
 
 .grid-directory  {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(1, 1fr);
 	align-items: center;
 }
 
@@ -561,7 +562,10 @@ section {
 .list section {
 	display: flex;
 	align-items: center;
-  margin: 1em
+  
+  /* width: 90%;
+  margin: 0 auto; */
+
 }
 
 .grid-directory  section {
@@ -570,7 +574,7 @@ section {
 }
 
 .grid-directory  section > * {
-	margin: 0.1rem;
+	margin: 0.1em;
   font-size: 0.8em;
 }
 
@@ -578,24 +582,35 @@ section {
 	/* flex-direction: row; */
   flex-direction: column;
 	justify-content: left;
+  font-size: 0.7em;
 }
 
-.list section > * {
-	margin: 0 1rem;
-	text-align: left;
+
+.list section:nth-child(odd){
+  background-color: #ccc;
 }
+
+.list section:nth-child(even){
+  background-color: transparent;
+  border: none;
+}
+
+/* .list section > * {
+	margin: 0 1em;
+	text-align: left;
+} */
 
 .list section img {
 	display: none; /* smaller viewports only */
 }
 
 .grid-directory  section h3 {
-	font-size: 1.5rem;
+	font-size: 1.5em;
 }
 
 .grid-directory  section a {
 	font-family: "Roboto", Arial, sans-serif;
-	font-size: 0.9rem;
+	font-size: 0.9em;
 }
 
 .grid-directory  section img {
@@ -604,7 +619,9 @@ section {
 }
 
 
-
+.grid-directory section img + p {
+  display: none; /* hide the company name in the grid view */
+}
 
 
 

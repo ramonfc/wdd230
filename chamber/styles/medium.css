@@ -225,6 +225,41 @@ form input.submitBtn {
     margin-bottom: 1em;
 }
 
+
+
+
+/* MAIN DIRECTORY */
+
+.grid-directory {
+    grid-template-columns: 1fr 1fr;
+}
+
+.list section {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.8fr 1fr;
+}
+
+.list section p {
+    margin: 1em;
+    padding: 1em;
+}
+
+.list section a {
+    justify-self: left;
+}
+
+.list section p {
+    font-size: 1.2em;
+}
+
+.list section a {
+    font-size: 1em;
+}
+
+
+
+
+
 /* FOOTER */
 
     .footer1 {

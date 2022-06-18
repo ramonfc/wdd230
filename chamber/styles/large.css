@@ -165,6 +165,28 @@ form {
 
 
 
+
+/* MAIN DIRECTORY */
+
+main#directory-page {
+  margin: 1rem auto;
+  width: 90vw;
+}
+
+.grid-directory {
+  grid-template-columns: 1fr 1fr 1fr;
+ 
+}
+
+.grid-directory section {
+  height: 12em;
+}
+
+
+
+
+
+
   /* FOOTER */
 
   .footer1-a {
