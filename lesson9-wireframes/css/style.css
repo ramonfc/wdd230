@@ -1,0 +1,93 @@
+:root {
+    --header_top: #7fb9c2;
+    --header_top_text: black;
+    --remark: #628ca6;
+    --remark_text: white;
+    --zebra_dark: #e7f0ed;
+    --zebra_ligth: #e7ffed;
+    --caption_bg: #7fb9c2;
+    --shadow: #6b8a8f;
+    --border: #c3c2c2;
+  }
+  
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+h2 {
+    margin-top: 1em;
+    text-align: center;
+}
+
+  table {
+	margin: 0.85em auto;
+	border-collapse: collapse;
+  font-size: 1em;
+}
+
+tfoot th {
+  padding: 0.85em;
+  caption-side: bottom;
+	background-color: var(--caption_bg);
+	font-size: 0.75em; 
+  font-weight: lighter; 
+}
+
+table {
+  box-shadow:  0.4em 0.4em 1em var(--remark)
+}
+
+
+thead tr:first-child th {
+	background-color: var(--header_top);
+  font-size: 2em;
+}
+
+thead tr:nth-child(2) th {
+  background-color: var(--remark);
+  color: var(--remark_text);
+}
+
+tbody tr > th {
+  font-weight: lighter;
+}
+
+tbody tr:nth-child(5) th {
+  font-style: italic;
+}
+
+tbody tr:nth-child(4) td:last-child {
+  background-color: var(--remark);
+  color: var(--remark_text);
+}
+
+
+td {
+  text-align: center;
+}
+
+th, td {
+	padding: 0.45em 0.95em;
+	
+}
+
+table, th, td {
+	border: thin solid var(--border);
+}
+
+
+tbody tr:nth-child(even) {
+	background-color: var(--zebra_ligth);
+}
+
+tbody tr:nth-child(odd) {
+	background-color: var(--zebra_dark);
+}
