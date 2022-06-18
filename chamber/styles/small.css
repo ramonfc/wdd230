@@ -500,13 +500,15 @@ main#thankyou h2 + p {
 
 
 /* MAIN DIRECTORY */
+div.grid-directory, div.list {
+  	background-color: transparent;
+}
 
 main#directory-page {
 	margin: 1rem auto;
 	/* border: 1px solid #bbb; */
 	padding: 0.5em;
 	max-width: 960px;
-	/* background-color: #eee; */
 	font-family: "Caveat", cursive;
 
   display: grid;
@@ -537,7 +539,7 @@ main#directory-page div {
   font-size: 2.4em;
 }
 
-main#directory-page article,
+main#directory-page div.grid-directory,
 .grid-directory section {
 	margin: 0.75em;
 }

@@ -38,7 +38,7 @@ fetch(requestURL)
 
 function displayCompanies(company) {
   // Get the article element
-  let article = document.querySelector("article");
+  let article = document.querySelector("div.grid-directory");
 
    // Create elements to add to the document
   let card = document.createElement("section");
