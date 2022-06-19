@@ -8,6 +8,10 @@ gridbutton.addEventListener("click", () => {
   // example using arrow function
   display.classList.add("grid-directory");
   display.classList.remove("list");
+
+  gridbutton.classList.add("selected");
+  listbutton.classList.remove("selected");
+
 });
 
 listbutton.addEventListener("click", showList); // example using defined function
@@ -15,6 +19,9 @@ listbutton.addEventListener("click", showList); // example using defined functio
 function showList() {
   display.classList.add("list");
   display.classList.remove("grid-directory");
+
+  listbutton.classList.add("selected");
+  gridbutton.classList.remove("selected");
 }
 
 
