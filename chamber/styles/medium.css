@@ -236,7 +236,8 @@ form input.submitBtn {
 
 .list section {
     display: grid;
-    grid-template-columns: 0.5fr 1fr 0.8fr 1fr;
+    /* grid-template-columns: 0.5fr 1fr 0.8fr 1fr; */
+    grid-template-columns: 0.5fr 1fr 0.8fr 1fr 0.5fr;
 }
 
 .list section p {

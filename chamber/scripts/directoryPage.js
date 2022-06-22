@@ -54,13 +54,14 @@ function displayCompanies(company) {
   let phone = document.createElement("p");
   let url = document.createElement("a");
   let name = document.createElement("p");
+  let membership = document.createElement("p");
 
 
 
   // Change the textContent property of the address element to contain the company's full name
   name.textContent = company.name;
   address.textContent = company.address;
-
+  membership.textContent = company.membership;
   phone.textContent = company.phone;
 
   // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. 
@@ -81,6 +82,7 @@ function displayCompanies(company) {
   card.appendChild(address);
   card.appendChild(phone);
   card.appendChild(url);
+  card.appendChild(membership);
 
 
   // Add/append the existing HTML div with the cards class with the section(card)
