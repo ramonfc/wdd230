@@ -119,9 +119,9 @@
         max-width: 100%;
     }
 
-    .wind-speed {
-        margin-right: -4vw;
-    }
+    /* .wind-speed {
+        margin-right: -7vw;
+    } */
 
     main .news, .join {
         padding-bottom: 2rem;

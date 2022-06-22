@@ -277,9 +277,9 @@ main .weather img {
   justify-content: space-between;
 }
 
-.wind-speed {
-  margin-right: -13vw;
-}
+/* .wind-speed {
+  margin-right: -10vw;
+} */
 
 /* join */
 
@@ -682,4 +682,9 @@ footer img {
   margin: 1rem auto;
   padding: 1rem;
   width: 90%;
+}
+
+.footer2 p a {
+  text-decoration: none;
+  color: #ffffff;
 }
