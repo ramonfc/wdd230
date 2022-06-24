@@ -580,7 +580,7 @@ section {
 }
 
 .grid-directory  section > * {
-	margin: 0.1em;
+	margin: 0.5em;
   font-size: 0.8em;
 }
 
@@ -599,6 +599,10 @@ section {
 .list section:nth-child(even){
   background-color: transparent;
   border: none;
+}
+
+.list section > * {
+  margin: 0.5em 0;
 }
 
 /* .list section > * {

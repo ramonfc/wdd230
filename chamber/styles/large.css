@@ -174,12 +174,13 @@ main#directory-page {
 }
 
 .grid-directory {
-  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: repeat(3, 20em);
  
 }
 
 .grid-directory section {
-  height: 12em;
+  height: 15em;
 }
 
 

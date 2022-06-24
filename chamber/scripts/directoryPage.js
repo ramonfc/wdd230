@@ -61,7 +61,7 @@ function displayCompanies(company) {
   // Change the textContent property of the address element to contain the company's full name
   name.textContent = company.name;
   address.textContent = company.address;
-  membership.textContent = company.membership;
+  membership.innerHTML = `<strong>Membership Level:</strong> ${company.membership}`;
   phone.textContent = company.phone;
 
   // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. 
