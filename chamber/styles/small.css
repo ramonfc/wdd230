@@ -190,6 +190,7 @@ main .hero picture img {
   margin: 0px;
   /* height: 100%; */
   /* overflow: hidden; */
+  display: block;
 }
 
 main .hero h2 {
@@ -212,7 +213,8 @@ main .hero button {
   padding: 5px;
   border: 1px solid;
   border-radius: 5px;
-  background-color: #fbff00;
+  /* background-color: #fbff00; */
+  background-color: #ff6500;
   font-weight: bold;
 }
 
