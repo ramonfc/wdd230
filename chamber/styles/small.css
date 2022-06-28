@@ -516,7 +516,7 @@ padding: 0 1em;
 }
 
 main#contact-page form label.top {
-  font-size: 1em;
+  font-size: 0.8em;
 
 }
 
@@ -529,7 +529,7 @@ main#contact-page form label.top textarea:required:valid {
 }
 
 main#contact-page div.map iframe {
-  width: inherit;
+  width: 100%;
 }
 
 main#contact-page section article {
