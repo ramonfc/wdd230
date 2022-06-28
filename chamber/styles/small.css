@@ -500,6 +500,61 @@ main#thankyou h2 + p {
 
 
 
+/* MAIN CONTACT */
+main#contact-page h2, main#contact-page p{
+  text-align: center;
+}
+
+main#contact-page h2 {
+font-size: 1.2rem;
+margin: 1rem auto;
+}
+
+main#contact-page p {
+text-align: center;
+padding: 0 1em;
+}
+
+main#contact-page form label.top {
+  font-size: 1em;
+
+}
+
+main#contact-page form label.top textarea:required {
+  border-left: 6px solid red;
+}
+
+main#contact-page form label.top textarea:required:valid {
+  border-left: 6px solid green;
+}
+
+main#contact-page div.map iframe {
+  width: inherit;
+}
+
+main#contact-page section article {
+  margin-top: 1em;
+}
+
+main#contact-page section article p {
+  margin-top: 0.5em;
+}
+
+
+main#contact-page section article:last-child {
+  display: flex;
+  gap: 0.5em;
+}
+
+main#contact-page section article:last-of-type a img {
+  width: 2rem;
+  border-radius: 50%;
+}
+
+
+
+
+
 
 /* MAIN DIRECTORY */
 div.grid-directory, div.list {
