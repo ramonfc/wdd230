@@ -544,6 +544,7 @@ main#contact-page section article p {
 main#contact-page section article:last-child {
   display: flex;
   gap: 0.5em;
+  justify-content: center;
 }
 
 main#contact-page section article:last-of-type a img {
