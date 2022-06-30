@@ -1,5 +1,6 @@
 /* 64rem is also 1028px when basefont is 16px */
 @media only screen and (min-width: 64rem) {
+
   header,
   main,
   footer {
@@ -68,9 +69,7 @@
 
   /* main */
 
-  .spotlight-3 {
-    display: block;
-  }
+ 
 
   main {
     margin: 1rem auto;
@@ -131,17 +130,30 @@
     grid-row: 1 / 4;
     grid-column: 4;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
   }
 
-  /* .spotlight div {
-        height: auto;
-        flex: 1 1 auto;
-    } */
-
-  .spotlight div img {
-    width: 20%;
+  .spotlight-3 {
+    /* display: block; */
+    display: grid;
+    align-content: center;
+    justify-content: center;
   }
+
+  .spotlight div {
+    font-size: 0.9em;
+    }
+
+    .spotlight div picture img {
+      max-width: 6.75em;
+      max-height: 6.75em;
+      margin: 0.5em;
+  }
+    
+  
+
+
+
 
   /* MAIN */
   /* DISCOVER */
@@ -155,33 +167,33 @@
 
 
 
-/* MAIN */
-/* JOIN */
+  /* MAIN */
+  /* JOIN */
 
-form {
+  form {
     font-size: 18px;
-}
+  }
 
 
 
 
 
-/* MAIN DIRECTORY */
+  /* MAIN DIRECTORY */
 
-main#directory-page {
-  margin: 1rem auto;
-  width: 90vw;
-}
+  main#directory-page {
+    margin: 1rem auto;
+    width: 90vw;
+  }
 
-.grid-directory {
-  /* grid-template-columns: 1fr 1fr 1fr; */
-  grid-template-columns: repeat(3, 20em);
- 
-}
+  .grid-directory {
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3, 20em);
 
-.grid-directory section {
-  height: 15em;
-}
+  }
+
+  .grid-directory section {
+    height: 15em;
+  }
 
 
 
