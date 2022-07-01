@@ -71,7 +71,7 @@ function displaycompanies(companies) {
         picture.appendChild(logo);
 
         message.textContent = `${company.message}`;
-        website.innerHTML = `<a href="${company.url}">${company.name}</a>`;
+        website.innerHTML = `<a href="${company.url}">${company.url}</a>`;
         phone.textContent = `${company.phone}`;
         
 

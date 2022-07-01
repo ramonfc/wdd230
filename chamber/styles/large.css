@@ -74,6 +74,8 @@
   main {
     margin: 1rem auto;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    grid-template-rows: repeat(auto-fit, minmax(50px,1fr));
   }
 
   /* event */
@@ -93,10 +95,8 @@
   }
 
   main .hero img {
-    /* width: 640px;
-        height: 410px; */
     height: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
   }
 
   /* weather */
@@ -145,8 +145,9 @@
     }
 
     .spotlight div picture img {
-      max-width: 6.75em;
-      max-height: 6.75em;
+      /* max-width: 6.75em;
+      max-height: 6.75em; */
+      width: 12em;
       margin: 0.5em;
   }
     

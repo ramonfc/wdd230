@@ -104,6 +104,11 @@
         max-height: 12.75em;
     }
 
+    .spotlight div a {
+        font-size: 0.9em;
+      }
+      
+
 
 
     /* join */
@@ -124,6 +129,15 @@
         border: 0.5px solid gray;
         border-radius: 5px;
         font-weight: bold;
+    }
+
+    main .join button:hover {
+        background-color: #cf7336;
+    }
+
+    main .join button:active {
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
     }
 
     /* event */

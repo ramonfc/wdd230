@@ -211,11 +211,20 @@ main .hero button {
   bottom: 10px;
   right: 30px;
   padding: 5px;
-  border: 1px solid;
+  border: 0.5px solid gray;
   border-radius: 5px;
   /* background-color: #fbff00; */
   background-color: #ff6500;
   font-weight: bold;
+}
+
+main .hero button:hover {
+  background-color: #cf7336;
+}
+
+main .hero button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 /* event */
@@ -333,6 +342,13 @@ main .join {
 }
 
 
+.spotlight div a:visited {
+  color: blue;
+}
+
+.spotlight div a {
+  font-size: 0.8em;
+}
 
 
 
@@ -735,6 +751,11 @@ footer img {
   padding: 0.4rem;
 }
 
+
+.footer1-b p a:hover {
+  text-decoration: underline;
+}
+
 .name {
   font-weight: bold;
 }
@@ -749,4 +770,8 @@ footer img {
 .footer2 p a {
   text-decoration: none;
   color: #ffffff;
+}
+
+.footer2 p a:hover {
+  text-decoration: underline;
 }
