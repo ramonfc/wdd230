@@ -5,7 +5,10 @@
     --nav-ul-li-a-selected-color: #FFDF64;
     --nav-ul-li-a-hover-color: #ffe064d2;
     --navigation-color-text: #587D71;
+    --navigation-border-width: 1.5em;
     --social-image-width: 25px;
+
+    --main-backgroun-color: #e9a97787;
 
     --footer-background-color: #587D71;
     --footer-text-color: #ffffff;
@@ -20,6 +23,7 @@
 body {
     font-size: 16px;
     font-family: "Lato", sans-serif;
+    background-color: var(--main-backgroun-color);
 }
 
 body,
@@ -95,13 +99,14 @@ header .titles h1 {
 
 
 
-.button-menu-area {    
+.button-menu-area {
     grid-row: 4;
     grid-column: 1/-1;
     background-color: var(--navigation-menu-background);
-    border-top: 1em solid var(--header-background); 
-    border-right: 1em solid var(--header-background);         /* */
-    border-left: 1em solid var(--header-background);
+    border-top: var(--navigation-border-width) solid var(--header-background);
+    border-right: var(--navigation-border-width) solid var(--header-background);
+    /* */
+    border-left: var(--navigation-border-width) solid var(--header-background);
 
     display: flex;
     justify-content: center;
@@ -119,19 +124,19 @@ header .titles h1 {
 
 #hamburgerBtn span:nth-child(1) {
     display: block;
-  }
-  
-  #hamburgerBtn span:nth-child(2) {
+}
+
+#hamburgerBtn span:nth-child(2) {
     display: none;
-  }
-  
-  #hamburgerBtn.open span:nth-child(1) {
+}
+
+#hamburgerBtn.open span:nth-child(1) {
     display: none;
-  }
-  
-  #hamburgerBtn.open span:nth-child(2) {
+}
+
+#hamburgerBtn.open span:nth-child(2) {
     display: block;
-  }
+}
 
 
 
@@ -139,9 +144,9 @@ header nav {
     grid-row: 5;
     grid-column: 1 / -1;
     background-color: var(--navigation-menu-background);
-    border-right: 1em solid var(--header-background);
-    border-bottom: 1em solid var(--header-background);
-    border-left: 1em solid var(--header-background);
+    border-right: var(--navigation-border-width) solid var(--header-background);
+    border-bottom: var(--navigation-border-width) solid var(--header-background);
+    border-left: var(--navigation-border-width) solid var(--header-background);
 }
 
 header nav ul {
@@ -150,39 +155,99 @@ header nav ul {
     padding: 0;
     margin: 0;
     text-align: center;
-  }
-  
- header nav a:hover {
+}
+
+header nav a:hover {
     background-color: var(--nav-ul-li-a-hover-color);
     color: var(--navigation-color-text);
     font-weight: bold;
-  }
-  
+}
+
 header nav ul li a {
     display: block;
     padding: 0.8rem 2vw;
     text-decoration: none;
     color: var(--navigation-color-text);
     border-top: 1px solid rgba(0, 0, 0, 0.5);
-  }
+}
 
 header nav ul li a:last-child {
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
-  
- header nav ul li.active a {
+
+header nav ul li.active a {
     color: var(--navigation-color-text);
     background-color: var(--nav-ul-li-a-selected-color);
-  }
-    
- header nav ul.open {
+}
+
+header nav ul.open {
     display: block;
-  }
+}
 
 
 
 
+main.home-page {
+    margin: 1rem 0;
+    /* background-color: var(--main-backgroun-color); */
+}
 
+/* hero */
+main.home-page .hero {
+    padding: 0;
+    position: relative;
+}
+
+main.home-page .hero picture img {
+    width: 80%;
+    margin: 0px auto;
+    display: block;
+}
+
+main.home-page .hero button {
+    position: absolute;
+    bottom: 20px;
+    right: calc(50% - 12vw);
+    border: 0.5px solid gray;
+    border-radius: 5px;
+    background-color: #ffdf64;
+    font-weight: bold;
+    color: #424242;
+    padding: 0.5em 1em;
+}
+
+main.home-page .hero button:hover {
+    background-color: #f5ca1e;
+}
+
+main.home-page .hero button:active {
+    box-shadow: 0 3px #635e46;
+    transform: translateY(3px);
+}
+
+
+
+
+main .chosen-temple {
+    /* display: block; */
+    background-color: var(--header-background);
+    margin-top: 1.5rem;
+    padding: 1.5em;
+}
+
+main .chosen-temple h2 {
+    text-align: center;
+}
+
+main .chosen-temple img {
+    display: block;
+    margin: 1em auto;
+    width: 80%;
+}
+
+main .chosen-temple div {
+    margin: 1.5em;
+}
 
 
 
@@ -195,18 +260,20 @@ footer {
     text-align: center;
 }
 
-footer a:link, footer a:visited {
+footer a:link,
+footer a:visited {
     color: var(--footer-text-color);
 }
 
 .footer1-a iframe {
     max-width: 20em;
     max-height: 15em;
-    margin: 0.5rem 0;  
+    margin: 0.5rem 0;
 }
- .footer1-a p {
+
+.footer1-a p {
     margin-top: 0.2em;
- }
+}
 
 
 .footer1-b p {
@@ -222,6 +289,6 @@ footer a:link, footer a:visited {
     margin-bottom: 0.2em;
 }
 
-.footer2 div + p {
+.footer2 div+p {
     padding: 1em 0;
 }
