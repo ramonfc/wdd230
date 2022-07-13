@@ -41,24 +41,33 @@ closeBtn.addEventListener("click", () => {
 
 // Curent weather:
 
-const getWeatherInfo = ()=> {
+const getWeatherInfo = async (lat, lon)=> {
+    const data = await fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=02784d30f1ae2ee62ed167493d7533e9&units=metric&exclude=minutely,hourly`);
+    const response = await data.json();
+    console.log(response)
 
-}
+    document.querySelector(".temperature").textContent = response.current.temp;
+    document.querySelector(".currently").textContent = response.current.weather[0].description;
+    document.querySelector(".humidity").textContent = response.current.humidity;
+}   
 
 
 (async () => {
     try {
         const dataIP = await fetch("https://api.ipify.org?format=json");
         const responseIP = await dataIP.json();
-        const ip = responseIP.ip;
-       console.log("ip: ", ip)
+        const ip = responseIP.ip;       
 
 
         try {
-            const dataLocal = await fetch(`http://ip-api.com/json/${ip}`);
+            const dataLocal = await fetch(`https://ipapi.co/${ip}/json`);
             const responseLocal = await dataLocal.json();
+            const city = responseLocal.city;
+            const lon = responseLocal.longitude;
+            const lat = responseLocal.latitude;
            
-            document.querySelector(".weather-city").textContent = responseLocal.city;
+            document.querySelector(".weather-city").textContent = city;
+            getWeatherInfo(lat, lon);
             // document.querySelector("#lat").textContent = responseLocal.lat;
             // document.querySelector("#lon").textContent = responseLocal.lon;
 
