@@ -1,4 +1,4 @@
-function toggleMenu(){
+function toggleMenu() {
     document.querySelector("#primaryNav").classList.toggle("open");
     document.querySelector("#hamburgerBtn").classList.toggle("open");
 }
@@ -19,24 +19,61 @@ x.onclick = toggleMenu;
 // Date to footer
 let date = new Date();
 const year = document.querySelector("#currentYear");
-year.innerHTML  = date.getFullYear();
+year.innerHTML = date.getFullYear();
 
 const modified = document.querySelector("#modified");
-modified.innerHTML  = document.lastModified;
+modified.innerHTML = document.lastModified;
 
 
 
 // Banner
-let day = date.getDay();
 
 const closeBtn = document.querySelector("#close");
 const banner = document.querySelector("#banner");
 
-if (day === 1 || day === 2) {
-	banner.style.display = "flex";
-    banner.style.justifyContent = "space-evenly";
-}
+banner.style.display = "flex";
+banner.style.justifyContent = "space-evenly";
 
 closeBtn.addEventListener("click", () => {
-	banner.style.display = "none";
+    banner.style.display = "none";
 });
+
+
+// Curent weather:
+
+const getWeatherInfo = ()=> {
+
+}
+
+
+(async () => {
+    try {
+        const dataIP = await fetch("https://api.ipify.org?format=json");
+        const responseIP = await dataIP.json();
+        const ip = responseIP.ip;
+       console.log("ip: ", ip)
+
+
+        try {
+            const dataLocal = await fetch(`http://ip-api.com/json/${ip}`);
+            const responseLocal = await dataLocal.json();
+           
+            document.querySelector(".weather-city").textContent = responseLocal.city;
+            // document.querySelector("#lat").textContent = responseLocal.lat;
+            // document.querySelector("#lon").textContent = responseLocal.lon;
+
+        }
+        catch (error) {
+            console.log(error);
+        }
+
+    }
+    catch (error) {
+        console.log(error);
+        document.querySelector(".weather-city").textContent = "Bethesda";
+
+        
+    }
+}
+
+)();
