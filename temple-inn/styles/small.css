@@ -34,7 +34,7 @@ footer {
     /* margin: auto 1rem; */
 }
 
-/* BANNER */
+/* BANNER: weather alert */
 #banner {
     display: none;
     margin: 0.5vh auto;
@@ -45,6 +45,10 @@ footer {
     font-size: 0.8rem;
     text-align: center;
     max-width: 750px;
+}
+
+#banner p {
+    padding: 0.5em 1em;
 }
 
 #close {
@@ -269,7 +273,7 @@ main .weather {
 }
 
 main .weather h2 {
-    font-size: 1.3em;
+    /* font-size: 1.3em; */
     grid-row: 1;
     grid-column: 1 / -1;
     text-align: center;
@@ -298,6 +302,46 @@ main .weather div p {
 
 main .weather div span {
     font-weight:100;
+}
+
+
+
+/* Forecast */
+main .forecast {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    justify-items: center;
+    padding: 1em;  
+    background-color: var(--header-background);
+}
+
+main .forecast h2 {
+    grid-row: 1;
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+
+main .forecast div {
+    background-color: white;
+    width: 100%;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .forecast div p{
+    margin: 0.5em 0;
+}
+
+main .forecast div picture img {
+    width: 3.813em;
+}
+
+main .forecast div p:last-child {
+    font-size: 0.8em;
 }
 
 
