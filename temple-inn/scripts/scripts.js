@@ -39,16 +39,29 @@ closeBtn.addEventListener("click", () => {
 });
 
 
-// Curent weather:
+// Current weather:
 
 const getWeatherInfo = async (lat, lon)=> {
+
+    const capitalize = (str) => {
+        let strArr = str.split(" ");
+        return strArr.map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()).join(" ");
+    }
+    
     const data = await fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=02784d30f1ae2ee62ed167493d7533e9&units=metric&exclude=minutely,hourly`);
     const response = await data.json();
     console.log(response)
 
-    document.querySelector(".temperature").textContent = response.current.temp;
-    document.querySelector(".currently").textContent = response.current.weather[0].description;
-    document.querySelector(".humidity").textContent = response.current.humidity;
+    document.querySelector(".temperature").textContent = response.current.temp + " °C";
+    document.querySelector(".currently").textContent = capitalize(response.current.weather[0].description);
+    document.querySelector(".humidity").textContent = response.current.humidity + " %";
+    const weatherIcon = document.querySelector('.weather-1 img');
+
+    // update the icon
+    const iconsrc = `https://openweathermap.org/img/w/${response.current.weather[0].icon}.png`;
+    weatherIcon.setAttribute("src", iconsrc);
+    weatherIcon.setAttribute("alt", response.current.weather[0].description);
+    weatherIcon.style.width = "7.813em"
 }   
 
 
@@ -67,10 +80,7 @@ const getWeatherInfo = async (lat, lon)=> {
             const lat = responseLocal.latitude;
            
             document.querySelector(".weather-city").textContent = city;
-            getWeatherInfo(lat, lon);
-            // document.querySelector("#lat").textContent = responseLocal.lat;
-            // document.querySelector("#lon").textContent = responseLocal.lon;
-
+            getWeatherInfo(lat, lon);           
         }
         catch (error) {
             console.log(error);
@@ -80,8 +90,9 @@ const getWeatherInfo = async (lat, lon)=> {
     catch (error) {
         console.log(error);
         document.querySelector(".weather-city").textContent = "Bethesda";
-
-        
+        const lon = -77.1003;
+        const lat = 38.9807;
+        getWeatherInfo(lat, lon);        
     }
 }
 
