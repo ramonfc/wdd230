@@ -39,7 +39,7 @@ const getWeatherInfo = async (lat, lon) => {
 
     const data = await fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=02784d30f1ae2ee62ed167493d7533e9&units=metric&exclude=minutely,hourly`);
     const response = await data.json();
-    console.log(response)
+    // console.log(response)
 
     document.querySelector(".temperature").textContent = response.current.temp + " °C";
     document.querySelector(".currently").textContent = capitalize(response.current.weather[0].description);
@@ -87,11 +87,11 @@ const forecastItems = (response) => {
         forecastItem.classList.add(`forecast-${i}`);
 
         let day = new Date(parseInt(dailyForecast[i].dt) * 1000);        
-        console.log(day)
+        // console.log(day)
         let dayUK = new Intl.DateTimeFormat("en-UK", {
             weekday: "short"
         }).format(day);
-        console.log(dayUK)
+        // console.log(dayUK)
 
         let dayText = document.createElement("p");
         dayText.textContent = dayUK;   
