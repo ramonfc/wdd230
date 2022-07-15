@@ -1,0 +1,70 @@
+/* 35rem is also 560px when basefont is 16px */
+@media only screen and (min-width: 45rem) {
+
+
+    /* banner */
+    #banner {
+        font-size: 1rem;
+        padding: 0.4rem 1rem 0.4rem 6vw;
+    }
+
+    /* Main home */
+
+    /* Hero */
+
+    main.home-page .hero button {
+        bottom: 40px;
+        right: calc(50% - 6vw);
+    }
+
+
+    main .chosen-temple {
+        display: grid;
+        justify-content: space-around;
+    }
+
+    /* info weather */
+
+    main .info-weather {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
+        align-items: center;
+        justify-items: stretch;
+        gap: 3vw;
+        margin: 0 3vw;
+
+    }
+
+    main .info-weather .forecast {
+        height: 15em;
+    }
+
+    main .forecast div p:last-child {
+        font-size: 0.7em;
+    }
+
+
+
+    /* FOOTER */
+
+    .footer1-a iframe {
+        max-width: 40em;
+    }    
+    
+    .footer2 div {
+        /* text-align: center; */
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer2 div p {
+        border-right: 2px solid rgba(253, 253, 253, 0.3);
+        padding: 0 0.6rem;
+        text-align: center;
+    }
+
+    .footer2 div p.name {
+        border: none;
+    }
+}

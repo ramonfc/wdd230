@@ -22,7 +22,7 @@
     <!-- phone-default -->
     <link href="styles/small.css" rel="stylesheet">
     <!-- enhance-tablet -->
-    <!-- <link href="styles/medium.css" rel="stylesheet"> -->
+    <link href="styles/medium.css" rel="stylesheet">
     <!-- enhance-desktop -->
     <!-- <link href="styles/large.css" rel="stylesheet"> -->
 
@@ -115,29 +115,31 @@
 
         </div>
 
+        <div class="info-weather">
+            <!-- 3 -->
+            <div class="weather">
+                <h2>Weather Sumary</h2>
 
-        <!-- 3 -->
-        <div class="weather">
-            <h2>Weather Sumary</h2>
+                <p id="weather-city"><span class="weather-city"></span></p>
 
-            <p id="weather-city"><span class="weather-city"></span></p>
+                <picture class="weather-1">
+                    <img src="https://via.placeholder.com/100" alt="weather today" loading="lazy">
+                </picture>
 
-            <picture class="weather-1">
-                <img src="https://via.placeholder.com/100" alt="weather today" loading="lazy">
-            </picture>
+                <div>
+                    <p>Temperature: <span class="temperature"></span></p>
+                    <p>Currently: <span class="currently"></span></p>
+                    <p>Humidity: <span class="humidity"></span></p>
+                </div>
 
-            <div>
-                <p>Temperature: <span class="temperature"></span></p>
-                <p>Currently: <span class="currently"></span></p>
-                <p>Humidity: <span class="humidity"></span></p>
             </div>
 
+            <!-- 3 -->
+            <div class="forecast">
+                <h2>Forecast</h2>
+            </div>
         </div>
 
-        <!-- 3 -->
-        <div class="forecast">
-            <h2>Forecast</h2>           
-        </div>
 
     </main>
 
@@ -172,7 +174,7 @@
                 <p>&copy; <span id="currentYear"> </span> The Temple Inn & Suites</p>
                 <p><a href="#">Contact Us</a></p>
                 <p><a href="#">Resources</a></p>
-                <p><span class="name">Ramón Castaño</span></p>
+                <p class="name"><span>Ramón Castaño</span></p>
             </div>
 
             <p>Last Modification: <span id="modified"></span></p>
