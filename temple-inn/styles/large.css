@@ -45,4 +45,12 @@
     main .forecast div p:last-child {
         font-size: 1em;
     }
+
+
+    /* Footer */
+    .footer1-a iframe {
+        max-width: 65em;
+        max-height: 20em;
+        width: 67em;
+    }
 }
