@@ -22,13 +22,24 @@
         font-size: 20px;
         padding: 0.5rem 1rem;
     }
+
+    header #primaryNav.open {
+        display: flex;
+    }
+
+    /* Main: Home */
+
+    /* chosen temple */
+    main div.chosen-temple {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1em;
+    }
+
+    main div.chosen-temple h2 {
+        grid-row: 1;
+        grid-column: 1 / -1;
+    }
+
    
-  header #primaryNav.open {
-    display: flex;
-  }
-
-/* Main: Home */
-
-
-
-   }
+}
