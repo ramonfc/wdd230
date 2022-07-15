@@ -1,0 +1,31 @@
+/* 64rem is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+
+    body,
+    header,
+    main,
+    footer {
+        max-width: 100%;
+    }
+
+    header div.button-menu-area {
+        display: none;
+    }
+
+    header nav ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    header nav ul li a:last-child {
+        border: none;
+        font-size: 20px;
+        padding: 0.5rem 1rem;
+    }
+
+   
+  header #primaryNav.open {
+    display: flex;
+  }
+
+   }
