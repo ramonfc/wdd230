@@ -41,5 +41,8 @@
         grid-column: 1 / -1;
     }
 
-   
+    /* weather info */
+    main .forecast div p:last-child {
+        font-size: 1em;
+    }
 }
