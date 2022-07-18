@@ -1,0 +1,171 @@
+{
+  "templeList": [
+    {
+      "name": "San Diego California Temple",
+      "image": "images/temples/san_diego_california_temple-500.jpeg",
+      "url": "https://www.churchofjesuschrist.org/temples/details/san-diego-california-temple?lang=eng",
+      "location": [
+        "7474 Charmant Dr",
+        "San Diego CA 92122-5000",
+        "United States"
+      ],
+      "phone": "(1) 858-622-0991",
+      "email": null,
+      "services": [
+        "Clothing rental available",
+        "No cafeteria available",
+        "No patron housing available",
+        "Distribution center nearby"
+      ],
+      "history": [
+        ["7 April 1984", "Announced"],
+        ["27 February 1988", "Groundbreaking"],
+        ["25 April 1993", "Dedicated"]
+      ],
+      "ordinance_schedule": null,
+      "session_schedule": null,
+      "closure_schedule": [
+        {
+          "2022": [
+            "Saturday, 1 October 2022",
+            "Wednesday, 23 November 2022 - Thursday, 24 November 2022",
+            "Saturday, 24 December 2022",
+            "Saturday, 31 December 2022"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Provo City Center Temple",
+      "image": "images/temples/provo_city_center_temple_exterior-500.jpg",
+      "url": "https://www.churchofjesuschrist.org/temples/details/provo-city-center-temple?lang=eng",
+      "location": [
+        "50 South University Ave",
+        "Provo UT 84601",
+        "United States"
+      ],
+      "phone": "(1) 801-343-2700",
+      "email": null,
+      "services": [
+        "Clothing rental available",
+        "No cafeteria available",
+        "No patron housing available",
+        "Distribution center nearby"
+      ],
+      "history": [
+        ["1 October 2011", "Announced"],
+        ["12 May 2012", "Groundbreaking"],
+        ["20 March 2016", "Dedicated"]
+      ],
+      "ordinance_schedule": null,
+      "session_schedule": null,
+      "closure_schedule": [
+        {
+          "2022": [
+            "Saturday, 1 October 2022",
+            "Wednesday, 23 November 2022 (Limited Operations)",
+            "Monday, 28 November 2022 - Monday, 12 December 2022",
+            "Saturday, 24 December 2022",
+            "Saturday, 31 December 2022"
+          ]
+        },
+        {
+          "2023": [
+            "Saturday, 1 April 2023",
+            "Monday, 19 June 2023 - Tuesday, 4 July 2023",
+            "Saturday, 7 October 2023",
+            "Wednesday, 22 November 2023 (Limited Operations)",
+            "Thursday, 23 November 2023",
+            "Monday, 27 November 2023 - Monday, 11 December 2023",
+            "Saturday, 23 December 2023 (Limited Operations)",
+            "Saturday, 30 December 2023 (Limited Operations)"
+          ]
+        },
+        {
+          "2024": ["Saturday, 6 April 2024"]
+        }
+      ]
+    },
+    {
+      "name": "Campinas Brazil Temple",
+      "image": "images/temples/campinas_brazil_temple_lds-500.jpeg",
+      "url": "https://www.churchofjesuschrist.org/temples/details/campinas-brazil-temple?lang=eng",
+      "location": [
+        "Rua James Esdras Faust, 400",
+        "Barrio Notre Dame",
+        "CEP 13092-820 Campinas - SP, Brazil"
+      ],
+      "phone": "(55) 19-2102-5800",
+      "email": null,
+      "services": [
+        "Clothing rental available",
+        "Cafeteria available",
+        "Patron housing available",
+        "Distribution center nearby"
+      ],
+      "history": [
+        ["3 April 1997", "Announced"],
+        ["1 May 1998", "Groundbreaking"],
+        ["17 May 2002", "Dedicated"]
+      ],
+      "ordinance_schedule": null,
+      "session_schedule": null,
+      "closure_schedule": [
+        {
+          "2022": [
+            "Monday, 19 September 2022 - Monday, 28 November 2022",
+            "Saturday, 24 December 2022",
+            "Saturday, 31 December 2022"
+          ]
+        },
+        {
+          "2023": [
+            "Saturday, 1 April 2023 - Sunday, 2 April 2023",
+            "Monday, 17 April 2023 - Monday, 1 May 2023",
+            "Monday, 18 September 2023 - Monday, 2 October 2023",
+            "Saturday, 23 December 2023 - Monday, 25 December 2023",
+            "Saturday, 30 December 2023 - Monday, 1 January 2024"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rome Italy Temple",
+      "image": "images/temples//rome_italy_temple-500.png",
+      "url": "https://www.churchofjesuschrist.org/temples/details/rome-italy-temple?lang=eng",
+      "location": ["Via di Settebagni 376", "Rome RM", "Italy"],
+      "phone": "(39) 06-9480-5050",
+      "email": null,
+      "services": [
+        "Clothing rental available",
+        "No cafeteria available",
+        "Patron housing available",
+        "Distribution center nearby"
+      ],
+      "history": [
+        ["4 October 2008", "Announced"],
+        ["23 October 2010", "Groundbreaking"],
+        ["10 March 2019", "Dedicated"]
+      ],
+      "ordinance_schedule": null,
+      "session_schedule": null,
+      "closure_schedule": [
+        {
+          "2022": [
+            "Monday, 19 September 2022 - Monday, 3 October 2022",
+            "Saturday, 24 December 2022 - Monday, 26 December 2022",
+            "Saturday, 31 December 2022 - Sunday, 1 January 2023"
+          ]
+        },
+        {
+          "2023": [
+            "Monday, 20 March 2023 - Monday, 3 April 2023",
+            "Thursday, 29 June 2023",
+            "Monday, 18 September 2023 - Monday, 2 October 2023",
+            "Sunday, 24 December 2023 - Tuesday, 26 December 2023"
+          ]
+        }
+      ]
+    }
+  ]
+}
