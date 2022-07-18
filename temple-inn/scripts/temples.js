@@ -41,7 +41,7 @@ const getData = async (url) => {
 }
 
 
-const showTemple = (temple) => {  
+const showTemple = (temple, index) => {  
     const templeMain = document.querySelector(".temples-page");
 
         const templeDiv = document.createElement("div");
@@ -175,17 +175,65 @@ const showTemple = (temple) => {
         })
 
      
+        const likeTemple = document.createElement("div");
+        likeTemple.classList.add("like");
 
 
+
+    const heartEmpty = document.createElement("img");
+    const heartFill = document.createElement("img");
+    const heartBtn = document.createElement("button");
+
+    // heart.setAttribute("id", `pos_${index}`);
+    // heart.src = "images/temples/empty-heart-11110.png";
+    // heart.alt = `${temple.name}`;
+    // heart.classList.toggle("empty");
+
+    
+    // var toggle = false;
+
+    // heart.onclick = ()=> {
+    //     if (toggle === true) {
+    //         document.querySelector(`#pos_${index}`).src  = 'images/temples/empty-heart-21110.png';
+
+    //     } else {
+    //        document.querySelector(`#pos_${index}`).src = 'images/temples/empty-heart-11110.png';
+    //     }
+    //     toggle = !toggle; 
+    // }
+    // likeTemple.appendChild(heart);
+
+
+
+
+    heartEmpty.setAttribute("src", "images/temples/empty-heart-11110.png");
+    heartEmpty.setAttribute("alt", `${temple.name}`);
+
+    heartFill.setAttribute("src", "images/temples/empty-heart-21110.png");
+    heartFill.setAttribute("alt", `${temple.name}`);
+
+    heartBtn.setAttribute("id", `${index}`)
+    heartBtn.appendChild(heartEmpty);
+    heartBtn.appendChild(heartFill);  
+    heartBtn.setAttribute("onclick", "selectHeart(this)");
+
+   
+
+   
+      likeTemple.appendChild(heartBtn);
 
         templeDiv.append(templeName, templePicture, templeAddress, templeTelephone, templeEmail, 
-            templeServices, templeHistory, ordSchedule, sessionSchedule, templeClosures);
+            templeServices, templeHistory, ordSchedule, sessionSchedule, templeClosures, likeTemple);
         console.log(templeDiv);
 
     
         templeMain.appendChild(templeDiv);
 }
 
+const selectHeart = (item)=> {
+    item.classList.toggle("open");
+    // document.querySelector(`#${index}`).classList.toggle("open")
+}
 
 (async () => {
     const data = await getData(requestURL);
