@@ -46,6 +46,26 @@
 
 
 
+    /* TEMPLES PAGE: */
+
+main.temples-page {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 0.8em;
+}
+
+main.temples-page .temple {
+    margin: 0;
+}
+
+main.temples-page .temple .closures div.dates {
+display: flex;
+flex-direction: row;
+}
+main.temples-page .temple .closures div.dates div ul {
+    list-style-position: inside;
+}
+
     /* FOOTER */
 
     .footer1-a iframe {

@@ -360,6 +360,7 @@ main.temples-page .temple {
     padding: 0.8em;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20px 240px;
     gap: 0.5em;
     justify-items: center;
     background-color: var(--header-background);

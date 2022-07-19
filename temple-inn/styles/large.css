@@ -47,6 +47,11 @@
     }
 
 
+    /* temples page */
+    main.temples-page .temple {
+        grid-template-rows: 20px 330px;
+    }
+
     /* Footer */
     .footer1-a iframe {
         max-width: 65em;
