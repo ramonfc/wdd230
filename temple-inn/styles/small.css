@@ -492,15 +492,22 @@ main.temples-page .temple div.like button.selected img:nth-child(2) {display: bl
 
 /* Reservations */
 
-main.reservations-page form {
-    font-size: 15px;
-    margin: 1.5rem auto;
-  }
-  
-  main.reservations-page h2 {
+main.reservations-page h2 {
     margin-top: 1rem;
     text-align: center;
   }
+
+  main.reservations-page img {
+    display: block;
+    width: 80%;
+    margin: 1em auto;
+  }
+
+main.reservations-page form {
+    font-size: 15px;
+    margin: 1.5rem auto;
+  } 
+ 
 
  main.reservations-page form fieldset {
     background-color: var(--header-background);
