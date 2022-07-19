@@ -464,7 +464,7 @@ main.temples-page div.temple div.closures div.dates div p {
 main.temples-page .temple div.like {
     grid-row: 8;
     grid-column: 1 / -1;
-    background-color: white;
+    background-color: var(--header-background);
     width: 100%;
     display: block;
     text-align: center;
@@ -484,8 +484,8 @@ main.temples-page .temple div.like button img {
 main.temples-page .temple div.like button img:nth-child(1) {display: block;}
 main.temples-page .temple div.like button img:nth-child(2) {display: none;}
 
-main.temples-page .temple div.like button.open img:nth-child(1) {display: none;}
-main.temples-page .temple div.like button.open img:nth-child(2) {display: block;}
+main.temples-page .temple div.like button.selected img:nth-child(1) {display: none;}
+main.temples-page .temple div.like button.selected img:nth-child(2) {display: block;}
 
 
 /* Footer */

@@ -206,7 +206,7 @@ const showTemple = (temple, index) => {
 
 
 
-    heartEmpty.setAttribute("src", "images/temples/empty-heart-11110.png");
+    heartEmpty.setAttribute("src", "images/temples/empty-heart-11110b.png");
     heartEmpty.setAttribute("alt", `${temple.name}`);
 
     heartFill.setAttribute("src", "images/temples/empty-heart-21110.png");
@@ -218,6 +218,10 @@ const showTemple = (temple, index) => {
     heartBtn.setAttribute("onclick", "selectHeart(this)");
 
    
+   const local =  getLocalStorage(index);
+   if(local){
+    heartBtn.classList.toggle("selected");    
+   }
 
    
       likeTemple.appendChild(heartBtn);
@@ -230,9 +234,20 @@ const showTemple = (temple, index) => {
         templeMain.appendChild(templeDiv);
 }
 
+
+const getLocalStorage = (pos) => {
+    const value = localStorage.getItem(`temple_${pos}`);
+    return value
+}
 const selectHeart = (item)=> {
-    item.classList.toggle("open");
-    // document.querySelector(`#${index}`).classList.toggle("open")
+    item.classList.toggle("selected");
+
+    if(item.className == "selected"){
+       localStorage.setItem(`temple_${item.id}`, item.id); 
+    }
+    else{
+        localStorage.removeItem(`temple_${item.id}`);
+    }
 }
 
 (async () => {
