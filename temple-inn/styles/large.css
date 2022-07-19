@@ -52,6 +52,19 @@
         grid-template-rows: 20px 330px;
     }
 
+
+/* Reservations page*/
+
+main.reservations-page form {
+    padding: 0 15em;
+  }
+  main.reservations-page img {
+    width: 50%;
+  }
+
+
+
+
     /* Footer */
     .footer1-a iframe {
         max-width: 65em;
