@@ -132,7 +132,24 @@ main.receptions-page div.reception div {
      text-align: left;
   }
 
+/* MISSIONARIES PAGE */
+main.missionaries-page div.facilities-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
+
+main.missionaries-page div.facilities div {
+    text-align: center;
+ }
+
+ main.missionaries-page div.facilities div ul {
+     display: inline-block;
+  }
+
+  main.missionaries-page div.facilities div ul li {
+     text-align: left;
+  }
 
 
 
