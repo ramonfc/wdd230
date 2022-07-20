@@ -107,7 +107,11 @@ main.services-page div picture img {
     width: 60%;
 }
 
-
+/* RECEPTIONS PAGE */
+main.receptions-page div.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
     /* FOOTER */
 
