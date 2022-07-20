@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>The Temple Inn & Suites | Reservation</title>
+    <title>The Temple Inn & Suites | Booked</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Ramón Castaño">
@@ -27,10 +27,8 @@
     <link href="styles/large.css" rel="stylesheet">
 
     <script src="scripts/scripts.js" defer></script>
-   
-
-
 </head>
+
 <body>
     <!-- Banner -->
     <div id="banner">
@@ -59,8 +57,8 @@
         <nav>
             <ul id="primaryNav">
                 <li><a href="index.html">Home</a></li>
-                <li ><a href="temples.html">Temples</a></li>
-                <li class="active"><a href="reservations.html">Reservation</a></li>
+                <li><a href="temples.html">Temples</a></li>
+                <li><a href="reservations.html">Reservation</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -68,103 +66,16 @@
     </header>
 
     <!-- CONTENT HERE -->
-    <main class="reservations-page">
-      <h2>Book your stay</h2>
-
-      <picture>
-        <source media="(max-width:45rem)" srcset="images/reservations/pexels-andrea-piacquadio-3771110-400.jpg">
-        <source media="(max-width:64rem)" srcset="images/reservations/pexels-andrea-piacquadio-3771110-400-medium.jpg">
-        <source media="(min-width:65rem)" srcset="images/reservations/pexels-andrea-piacquadio-3771110-400-large.jpg">
-        <img src="images/reservations/pexels-andrea-piacquadio-3771110-400-large.jpg" alt="reservations" loading="lazy">
-    </picture>
-
-        <form method="get" action="booked.html">
-
-            <fieldset>
-              <legend>Check Availability</legend>
-              <label class="top">
-                Temple Location
-                <select name="temple">
-                  <option value="">Please Select</option>
-                  <option value="san-diego">San Diego, CA</option>
-                  <option value="provo-city">Provo City, UT</option>
-                  <option value="campinas">Campinas Brazil</option>
-                  <option value="rome">Rome Italy</option>
-                </select>
-              </label>
-              <label class="top">
-                Check in <input type="date" name="checkin" required />
-              </label>
-              <label class="top">
-                Check out <input type="date" name="checkout" required />
-              </label>
-    
-              <label class="top">
-                Adults
-                <select name="adults">
-                  <option value="one">1</option>
-                  <option value="two">2</option>
-                  <option value="three">3</option>
-                  <option value="four">4</option>
-                  <option value="five">5+</option>
-                </select>
-              </label>
-
-              <label class="top">
-                Children
-                <select name="children">
-                  <option value="">0</option>
-                  <option value="onecount">1</option>
-                  <option value="twocount">2</option>
-                  <option value="threecount">3+</option>
-                </select>
-              </label>
-            </fieldset>
-
-
-            <fieldset>
-              <legend>Accomodations</legend>
-              <label class="sbs">
-                <input type="radio" name="room" value="single" /> Single
-              </label>
-              <label class="sbs">
-                <input type="radio" name="room" value="double" /> Double
-              </label>
-              <label class="sbs">
-                <input type="radio" name="room" value="king" /> King
-              </label>
-              <label class="sbs">
-                <input type="radio" name="room" value="queen" /> Queen
-              </label>
-            </fieldset>
-
-
-            <fieldset>
-              <legend>Contact Information</legend>
-              <label class="top">
-                First Name <span>*</span> <input type="text" name="fname" required />
-              </label>
-              <label class="top">
-                Last Name <span>*</span> <input type="text" name="lname" required />
-              </label>
-              <label class="top">
-                Email <span>*</span> <input type="email" name="email" required />
-              </label>
-              <label class="top">
-                Phone <span>*</span> <input type="tel" name="phone" required />
-              </label>
-            </fieldset>
-
-
-            <fieldset>
-                <legend>Comments</legend>
-                <label class="top" for="comments">Special Accommodations/Comments
-                    <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
-                </label>
-
-            </fieldset>
-            <input type="submit" value="Book My Room" class="submitBtn" />
-          </form>
+    <main class="booked-page">
+        <h2>Booking Confirmed</h2>
+       
+            <p>
+                Thank you for booking your stay at Temple Inn & Suites!
+            </p>
+            <p>
+                You will receive an email shortly with all your reservation details
+            </p>
+        
     </main>
 
     <!-- FOOTER HERE -->

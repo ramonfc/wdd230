@@ -31,7 +31,10 @@ header,
 main,
 footer {
     max-width: 960px;
+    /* margin: 0 auto; */
 }
+
+
 
 /* BANNER: weather alert */
 #banner {
@@ -194,7 +197,7 @@ header nav ul.open {
 
 
 main.home-page {
-    margin: 1rem 0;
+    margin: 1rem auto;
     /* background-color: var(--main-backgroun-color); */
 }
 
@@ -593,6 +596,33 @@ main.reservations-page form label.top input:required:valid {
     border: 1px solid green;
   }
 
+
+
+/* Booked page */
+main.booked-page {
+    margin: 1em auto;
+    padding: 1em;
+    background-color: var(--header-background);
+}
+
+main.booked-page {
+    margin: 10vh auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  main.booked-page p {
+    margin: 1em;
+  }
+  main.booked-page h2 + p {
+    margin: 10vh;
+    font-weight: bolder;
+    font-size: 2em;
+    font-style: italic;
+  }
+  
 
 
 /* Footer */
