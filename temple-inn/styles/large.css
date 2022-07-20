@@ -5,7 +5,8 @@
     header,
     main,
     footer {
-        max-width: 100%;
+        max-width: 1800px;
+        margin: 0 auto;
     }
 
     header div.button-menu-area {
@@ -62,7 +63,8 @@ main.reservations-page form {
     width: 50%;
   }
 
-
+  
+ 
 
 
     /* Footer */
