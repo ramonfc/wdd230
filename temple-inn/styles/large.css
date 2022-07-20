@@ -63,9 +63,26 @@ main.reservations-page form {
     width: 50%;
   }
 
-  
- 
+  /* SERVICES PAGE */
+  main.services-page div.services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+  }
 
+  
+main.services-page div.services div {
+    margin-bottom: 1em;
+}
+ 
+  main.services-page div.services div.services-subpages {
+    grid-row: 1;
+    grid-column: 2;
+  }
+
+  main.services-page div.services div ul li {
+    margin: 1em auto;
+  }
 
     /* Footer */
     .footer1-a iframe {
