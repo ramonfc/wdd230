@@ -702,6 +702,118 @@ main.receptions-page div.gallery img {
     margin: 0.5em auto;
 }
 
+/* MISSIONARIES PAGE */
+main.missionaries-page {
+    background-color: var(--header-background);
+    margin: 1em 0;
+    padding: 1em;
+}
+
+main.missionaries-page h2 {
+    text-align: center;
+}
+
+main.missionaries-page p {
+    margin: 1em;
+    background-color: var(--footer-background-color);
+    color: var(--footer-text-color);
+    padding: 1em;
+    text-align: center;
+}
+
+main.missionaries-page div.facilities ul {
+    padding: 1em 2em;
+}
+
+main.missionaries-page div.facilities-images img {
+    display: block;
+    width: 90%;
+    margin: 0.5em auto;
+}
+
+
+main.missionaries-page form {
+    font-size: 15px;
+    margin: 1.5rem auto;
+  } 
+ 
+
+ main.missionaries-page form fieldset {
+    background-color: var(--header-background);
+    margin: 2em auto;
+    border: 1px solid var(--header-text-color);
+    border-radius: 10px;
+    padding: 0.5em 2%;
+    font-size: 1em;
+    max-width: 90%;
+    /* min-width: 100%;  */
+    width: 25em;
+  }
+
+  main.missionaries-page form legend {
+    color: var(--header-text-color);
+    margin: 0 1em;
+    padding: 0 0.5em;
+    font-weight: bold;
+  }
+
+  main.missionaries-page form label.top {
+    display: block;
+    padding-top: 1em;
+    color: var(--header-text-color);
+    /* font-size: 0.8em; */
+  }
+
+  main.missionaries-page form label.top input  {
+    -webkit-appearance: none;
+    display: block;
+    /* font-size: 1em; */
+    border: 1px solid #808080;
+    border-radius: 4px;
+    padding: 0.75em;
+    color: #555;
+    width: 100%;
+  }
+  
+main.missionaries-page form label.top textarea {
+    display: block;
+    width: 100%;
+    /* max-width: var(--form-max-width-inputs); */
+    max-height: 40em;
+    height: 10em;
+    padding: 0.75em;
+    border: 1px solid #888;
+    border-radius: 4px;
+    /* background-color: rgba(0, 0, 0, 0.1); */
+  }
+  
+main.missionaries-page form input.submitBtn {
+    /* border: none; */
+    background-color: var(--nav-ul-li-a-selected-color);
+    color: var(--header-text-color);
+    border-radius: 1em;
+    padding: 0.75em 1.5em;
+    /* margin: 0 0 2em 2%; */
+    width: 80%;
+    max-width: 26em;
+    margin: 0 auto;
+    display: block;
+    font-weight: bold;
+  }
+
+main.missionaries-page form label.top span {
+    color: red;
+}
+
+main.missionaries-page form label.top input:required, main.missionaries-page form label.top textarea:required {
+    border: 1px solid red;
+  }
+  
+main.missionaries-page form label.top input:required:valid, main.missionaries-page form label.top textarea:valid {
+    border: 1px solid green;
+  }
+
+
 
 /* Footer */
 footer {

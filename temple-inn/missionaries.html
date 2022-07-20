@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>The Temple Inn & Suites | Missionaries</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Ramón Castaño">
+    <meta name="description"
+        content="The Temple Inn & Suites: Web Frontend Development I at Brigham Young University - Idaho">
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <!-- selected fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab&display=swap" rel="stylesheet">
+
+
+
+    <!-- STYLE SHEETS -->
+    <link href="styles/normalize.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="styles/small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="styles/medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="styles/large.css" rel="stylesheet">
+
+    <script src="scripts/scripts.js" defer></script>
+
+
+</head>
+
+<body>
+    <!-- Banner -->
+    <div id="banner">
+        <p>Message here!</p><button id="close">x</button>
+    </div>
+    <!-- HEADER HERE -->
+    <header>
+
+        <img id="logo" src="images/logo.svg" alt="logo temple inn">
+
+
+        <div class="titles">
+            <h1>The Temple Inn & Suites</h1>
+        </div>
+
+        <div class="social">
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="logo facebook"></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.png" alt="logo linkedin"></a>
+        </div>
+        <!-- NAVIGATION HERE -->
+        <div class="button-menu-area">
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <span id="menu-text">Menu</span>
+        </div>
+
+        <nav>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="temples.html">Temples</a></li>
+                <li><a href="reservations.html">Reservation</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CONTENT HERE -->
+    <main class="missionaries-page">
+        <h2>Full-time Missionaries</h2>
+
+        <div class="facilities">
+            <p>
+                For a pleasant stay, we have one and two-room Suites available for extended stays. Our Suites include a
+                full kitchen and living area to make accommodations as comfortable as possible for you.
+            </p>
+            <div>
+                <ul>
+                    <li>Weekly housekeeping</li>
+                    <li>Free Wi-Fi in the entire hotel</li>
+                    <li>Air cooling in all rooms</li>
+                    <li>Parking space</li>
+                    <li>Laundry and dry cleaning service</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="facilities-images">
+
+            <img class="service" src="images/services/kitchen-600.jpg" alt="kitchen" loading="lazy"/>
+            <img class="service" src="images/services/room-600.jpg" alt="room" loading="lazy"/>
+        </div>
+        
+        <form action="booked.html" method="get">
+            <fieldset>
+                <legend>Questions?</legend>
+                <label class="top">
+                    Name <span>*</span> <input type="text" name="name" required />
+                  </label>
+                  <label class="top">
+                    Email <span>*</span> <input type="email" name="email" required />
+                  </label>
+                  <label  class="top" for="comments">Tell us <span>*</span>
+                    <textarea name="comments" id="comments" cols="30" rows="10" required></textarea>
+                </label>
+            </fieldset>
+            <input type="submit" value="Ask" class="submitBtn" />
+        </form>
+
+    </main>
+
+    <!-- FOOTER HERE -->
+    <footer>
+        <div class="footer1">
+
+            <div class="footer1-a">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4048370284854!2d-77.09772048528721!3d38.98325594948481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sco!4v1657590255448!5m2!1ses-419!2sco"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <h3>The Temple Inn & Suites</h3>
+                <p>4800 Montgomery Ln #300</p>
+                <p>Bethesda, MD 20814</p>
+            </div>
+            <div class="footer1-b">
+                <p>contact@tis.com</p>
+                <p>+1 123 456 789</p>
+                <div class="social">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook-white.png"
+                            alt="logo facebook"></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin-white.png"
+                            alt="logo linkedin"></a>
+                </div>
+                <!-- <p>&#128205; <a href="https://goo.gl/maps/qPokitLDcnFeeU6P6" target="_blank">Location Map</a> </p> -->
+            </div>
+        </div>
+
+        <div class="footer2">
+            <div>
+                <p>&copy; <span id="currentYear"> </span> The Temple Inn & Suites</p>
+                <p><a href="#">Contact Us</a></p>
+                <p><a href="#">Resources</a></p>
+                <p class="name"><span>Ramón Castaño</span></p>
+            </div>
+
+            <p>Last Modification: <span id="modified"></span></p>
+        </div>
+
+    </footer>
+
+
+</body>
+</html>
