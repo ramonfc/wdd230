@@ -32,6 +32,15 @@ main,
 footer {
     max-width: 960px;
     /* margin: 0 auto; */
+    color: var(--header-text-color);
+}
+
+main a, main a:visited {
+    color: var(--header-text-color);
+}
+
+main a:hover, footer a:hover {
+    font-weight: bold;
 }
 
 
@@ -623,6 +632,45 @@ main.booked-page {
     font-style: italic;
   }
   
+
+
+  /* SERVICES PAGE */
+
+  main.services-page h2, main.services-page div.services div h3 {
+    text-align: center;
+    margin: 1em auto;
+  }
+
+  main.services-page div.services div ul  {
+    padding: 0 2em 1em 2em;
+  }
+
+  main.services-page div.services div{
+    background-color: var(--header-background);
+    padding: 1em;
+    margin: 1em 0;
+  }
+
+
+  main.services-page div picture img {
+    display: block;
+    width: 80%;
+    margin: 1em auto;
+  }
+
+
+main.services-page div.services div.services-subpages div h3 {
+    margin: 0 auto;    
+}
+
+
+main.services-page div.services div.services-subpages div.subpage h3 a {
+    color: var(--header-text-color);
+}
+
+main.services-page div.services div.services-subpages div.subpage h3 a:hover {
+    color: #012a36b7;
+}
 
 
 /* Footer */
