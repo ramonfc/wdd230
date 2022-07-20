@@ -673,6 +673,36 @@ main.services-page div.services div.services-subpages div.subpage h3 a:hover {
 }
 
 
+/* RECEPTIONS PAGE */
+main.receptions-page {
+    background-color: var(--header-background);
+    margin: 1em 0;
+    padding: 1em;
+}
+
+main.receptions-page h2 {
+    text-align: center;
+}
+
+main.receptions-page p {
+    margin: 1em;
+    background-color: white;
+    color: var(--header-text-color);
+    padding: 1em;
+    text-align: center;
+}
+
+main.receptions-page div.reception ul {
+    padding: 1em 2em;
+}
+
+main.receptions-page div.gallery img {
+    display: block;
+    width: 90%;
+    margin: 0.5em auto;
+}
+
+
 /* Footer */
 footer {
     display: block;
