@@ -101,6 +101,14 @@ main.reservations-page form {
   }
 
 
+
+/* SERVICES PAGE */
+main.services-page div picture img {
+    width: 60%;
+}
+
+
+
     /* FOOTER */
 
     .footer1-a iframe {
