@@ -732,13 +732,13 @@ main.missionaries-page div.facilities-images img {
 }
 
 
-main.missionaries-page form {
+main form {
     font-size: 15px;
     margin: 1.5rem auto;
   } 
  
 
- main.missionaries-page form fieldset {
+ main form fieldset {
     background-color: var(--header-background);
     margin: 2em auto;
     border: 1px solid var(--header-text-color);
@@ -750,21 +750,21 @@ main.missionaries-page form {
     width: 25em;
   }
 
-  main.missionaries-page form legend {
+  main form legend {
     color: var(--header-text-color);
     margin: 0 1em;
     padding: 0 0.5em;
     font-weight: bold;
   }
 
-  main.missionaries-page form label.top {
+  main form label.top {
     display: block;
     padding-top: 1em;
     color: var(--header-text-color);
     /* font-size: 0.8em; */
   }
 
-  main.missionaries-page form label.top input  {
+  main form label.top input  {
     -webkit-appearance: none;
     display: block;
     /* font-size: 1em; */
@@ -775,7 +775,7 @@ main.missionaries-page form {
     width: 100%;
   }
   
-main.missionaries-page form label.top textarea {
+main form label.top textarea {
     display: block;
     width: 100%;
     /* max-width: var(--form-max-width-inputs); */
@@ -787,7 +787,7 @@ main.missionaries-page form label.top textarea {
     /* background-color: rgba(0, 0, 0, 0.1); */
   }
   
-main.missionaries-page form input.submitBtn {
+main form input.submitBtn {
     /* border: none; */
     background-color: var(--nav-ul-li-a-selected-color);
     color: var(--header-text-color);
@@ -801,15 +801,15 @@ main.missionaries-page form input.submitBtn {
     font-weight: bold;
   }
 
-main.missionaries-page form label.top span {
+main form label.top span {
     color: red;
 }
 
-main.missionaries-page form label.top input:required, main.missionaries-page form label.top textarea:required {
+main form label.top input:required, main form label.top textarea:required {
     border: 1px solid red;
   }
   
-main.missionaries-page form label.top input:required:valid, main.missionaries-page form label.top textarea:valid {
+main form label.top input:required:valid, main form label.top textarea:valid {
     border: 1px solid green;
   }
 

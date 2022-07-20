@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>The Temple Inn & Suites | Booked</title>
+    <title>The Temple Inn & Suites | Contact</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Ramón Castaño">
@@ -27,6 +27,7 @@
     <link href="styles/large.css" rel="stylesheet">
 
     <script src="scripts/scripts.js" defer></script>
+
 </head>
 
 <body>
@@ -60,22 +61,30 @@
                 <li><a href="temples.html">Temples</a></li>
                 <li><a href="reservations.html">Reservation</a></li>
                 <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li  class="active"><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- CONTENT HERE -->
-    <main class="booked-page">
-        <h2>Booking Confirmed</h2>
-       
-            <p>
-                Thank you for booking your stay at Temple Inn & Suites!
-            </p>
-            <p>
-                You will receive an email shortly with all your reservation details
-            </p>
-        
+    <main class="contact-page">
+
+        <form action="thanks.html" method="get">
+            <fieldset>
+                <legend>Questions?</legend>
+                <label class="top">
+                    Name <span>*</span> <input type="text" name="name" required />
+                  </label>
+                  <label class="top">
+                    Email <span>*</span> <input type="email" name="email" required />
+                  </label>
+                  <label  class="top" for="comments">How can we help you? <span>*</span>
+                    <textarea name="comments" id="comments" cols="30" rows="10" required></textarea>
+                </label>
+            </fieldset>
+            <input type="submit" value="Contact" class="submitBtn" />
+        </form>
+      
     </main>
 
     <!-- FOOTER HERE -->
