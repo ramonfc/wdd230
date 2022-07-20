@@ -1,7 +1,13 @@
 /* 35rem is also 560px when basefont is 16px */
 @media only screen and (min-width: 45rem) {
 
-
+    body,
+    header,
+    main,
+    footer {
+        max-width: 1020px;
+        margin: 0 auto;
+    }
     /* banner */
     #banner {
         font-size: 1rem;
@@ -112,6 +118,23 @@ main.receptions-page div.gallery {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+
+main.receptions-page div.reception div {
+    text-align: center;
+ }
+
+ main.receptions-page div.reception div ul {
+     display: inline-block;
+  }
+
+  main.receptions-page div.reception div ul li {
+     text-align: left;
+  }
+
+
+
+
 
     /* FOOTER */
 

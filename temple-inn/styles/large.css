@@ -54,39 +54,51 @@
     }
 
 
-/* Reservations page*/
+    /* Reservations page*/
 
-main.reservations-page form {
-    padding: 0 15em;
-  }
-  main.reservations-page img {
-    width: 50%;
-  }
+    main.reservations-page form {
+        padding: 0 15em;
+    }
 
-  /* SERVICES PAGE */
-  main.services-page div.services {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1em;
-  }
+    main.reservations-page img {
+        width: 50%;
+    }
 
-  
- main.services-page div.services div:nth-child(2) {
-    margin: -1em 0 1em 0;
-}
-/*
+    /* SERVICES PAGE */
+    main.services-page div.services {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+    }
+
+
+    main.services-page div.services div:nth-child(2) {
+        margin: -1em 0 1em 0;
+    }
+
+    /*
 main.services-page div.services div:nth-child(1) {
     margin: 1em 0 0 0;
 } */
- 
-  main.services-page div.services div.services-subpages {
-    grid-row: 1;
-    grid-column: 2;
-  }
 
-  main.services-page div.services div ul li {
-    margin: 1em auto;
-  }
+    main.services-page div.services div.services-subpages {
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+    main.services-page div.services div ul li {
+        margin: 1em auto;
+    }
+
+
+
+    /* RECEPTIONS PAGE */
+    main.receptions-page {
+        width: 80%;
+        margin: 1em auto;
+    }
+
+    
 
     /* Footer */
     .footer1-a iframe {
