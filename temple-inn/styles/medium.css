@@ -152,6 +152,12 @@ main.missionaries-page div.facilities div {
   }
 
 
+  /* RESOURCES PAGE */
+  main.resources-page {
+    width: 80vw;
+    margin: 1em auto;
+  }
+
 
     /* FOOTER */
 

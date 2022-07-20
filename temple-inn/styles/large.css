@@ -74,9 +74,9 @@
     main.services-page div.services div.services-subpages {
         grid-row: 2;
         grid-column: 1 / -1;
-       display: flex;
-       justify-content: center;
-       margin-top: 0;
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
     }
 
     /* main.services-page div.services div:nth-child(2) {
@@ -109,7 +109,15 @@
         margin: 1em auto;
     }
 
-    
+
+
+    /* RESOURCES PAGE */
+    main.resources-page {
+        width: 60vw;
+    }
+
+
+
 
     /* Footer */
     .footer1-a iframe {
