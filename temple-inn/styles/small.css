@@ -814,6 +814,30 @@ main form label.top input:required:valid, main form label.top textarea:valid {
   }
 
 
+  /* RESOURCES PAGE */
+  main.resources-page {
+    background-color: var(--header-background);
+    margin: 1em 0;
+    padding: 1em;
+  }
+  main.resources-page h2 {
+    margin-bottom: 1em;
+    text-align: center;
+  }
+
+  main.resources-page p {
+    margin: 1em 0;
+  }
+
+  main.resources-page ul {
+    padding: 0 1em;
+  }
+
+  main.resources-page ul li {
+    margin: 0.4em 0;
+  }
+
+
 
 /* Footer */
 footer {
