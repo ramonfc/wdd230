@@ -36,8 +36,9 @@ const showBanner = (response) => {
         const banner = document.querySelector("#banner");
         const bannerMessage = document.querySelector("#banner p");
 
-        banner.style.display = "flex";
-        banner.style.justifyContent = "space-evenly";
+        // banner.style.display = "flex";
+        // banner.style.justifyContent = "space-evenly";
+        banner.classList.toggle("show");
 
         bannerMessage.textContent = `${response.alerts[0].event}: ${response.alerts[0].description}`;
 

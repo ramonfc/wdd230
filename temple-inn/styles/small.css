@@ -52,10 +52,10 @@ main a:hover, footer a:hover {
     color: #004085;
     border: 1px solid #b8daff;
     background-color: #cce5ff;
-    padding: 0.4rem;
+    padding: 0.4rem 0.8em;
     font-size: 0.8rem;
-    text-align: center;
-    max-width: 750px;
+    text-align: justify;
+    max-width: 95vw;
 }
 
 #banner p {
@@ -69,7 +69,14 @@ main a:hover, footer a:hover {
     border: 1px solid #8fc1f7;
     border-radius: 4px;
     background-color: #acd2fc;
-    padding: 0.1rem 0.4rem;
+    padding: 0 0.4em;
+    height: 1.5em;
+}
+
+#banner.show {
+    display: grid;
+    grid-template-columns: 1fr 20px;
+    gap: 0.3em;
 }
 
 
